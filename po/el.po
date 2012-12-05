@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Archaic_Era-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-22 20:21-0500\n"
+"POT-Creation-Date: 2012-12-05 12:39+0100\n"
 "PO-Revision-Date: 2012-09-28 02:19+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -2315,12 +2315,11 @@ msgstr ""
 #. [unit_type]: id=Northern Ranger, race=human
 #: Archaic_Era/units/ukians/Royal_Ranger.cfg:21
 msgid ""
-"The cold north is hard on the fingers, the cold robs the fingers of their "
-"dexterity and makes a bow too hard to use. The Northern Rangers throw spears "
-"and use them on defense, for they do not require nimble fingers, and they "
-"have the momentum to pierce the thick, hairy hides of a northern beast.  "
-"These fighters must move alone in the harsh north, so they are relatively "
-"unphased by the touch of cold."
+"The cold of the far north robs the fingers of their dexterity and makes a "
+"bow too hard to use. For this reason, the Northern Rangers favor spears, "
+"which do not require nimble fingers, over the bow.  These fighters must move "
+"alone in the harsh north, away from the warmth of camp or even a horse, so "
+"they are relatively unfazed by the touch of cold."
 msgstr ""
 
 #. [unit_type]: id=Royal Sheriff, race=human
@@ -2543,7 +2542,7 @@ msgid "Ukian Regular"
 msgstr ""
 
 #. [unit_type]: id=Ukian Regular, race=ukian
-#: Archaic_Era/units/ukians/Ukian_Regular.cfg:20
+#: Archaic_Era/units/ukians/Ukian_Regular.cfg:21
 msgid ""
 "Ukian Regulars carry a spear because spears are relatively inexpensive. Like "
 "all Ukians, they are accustomed to life on the tundra, and know how to "
@@ -2624,12 +2623,16 @@ msgid "Ukian Veteran"
 msgstr ""
 
 #. [unit_type]: id=Ukian Veteran, race=ukian
-#: Archaic_Era/units/ukians/Ukian_Veteran.cfg:20
-msgid "Veteran soldiers..."
+#: Archaic_Era/units/ukians/Ukian_Veteran.cfg:21
+msgid ""
+"The core of the Ukian infantry is the spearman, so not every experienced "
+"fighter can leave to join the Officers or Signalmen.  The veteran spearmen "
+"lay claim to better equipment, and give up the basic throwing knives for the "
+"heftier hatchets."
 msgstr ""
 
 #. [attack]: type=blade
-#: Archaic_Era/units/ukians/Ukian_Veteran.cfg:46
+#: Archaic_Era/units/ukians/Ukian_Veteran.cfg:47
 msgid "throwing axe"
 msgstr ""
 
