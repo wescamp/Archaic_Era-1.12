@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Archaic_Era-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-05 12:39+0100\n"
+"POT-Creation-Date: 2013-02-26 22:42-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -507,7 +507,7 @@ msgid "Horses are strong and fast, but fragile. They do not usually attack peopl
 msgstr ""
 
 #. [attack]: type=impact
-#: ./Archaic_Era/units/khthon/Horse.cfg:34 ./Archaic_Era/units/khthon/Hypergusa.cfg:40 ./Archaic_Era/units/khthon/Ipoten.cfg:57 ./Archaic_Era/units/khthon/Nightmare.cfg:56 ./Archaic_Era/units/khthon/Pegusa.cfg:33 ./Archaic_Era/units/khthon/Taraxippon.cfg:57 ./Archaic_Era/units/ukians/Royal_Vassal.cfg:40
+#: ./Archaic_Era/units/khthon/Horse.cfg:34 ./Archaic_Era/units/khthon/Hypergusa.cfg:40 ./Archaic_Era/units/khthon/Noble.cfg:34 ./Archaic_Era/units/khthon/Pegusa.cfg:33 ./Archaic_Era/units/khthon/Royal.cfg:41 ./Archaic_Era/units/ukians/Royal_Vassal.cfg:40
 msgid "kick"
 msgstr ""
 
@@ -528,7 +528,13 @@ msgstr ""
 
 #. [unit_type]: id=Ipoten, race=khthon
 #: ./Archaic_Era/units/khthon/Ipoten.cfg:21
-msgid "Ipoten maintain their unusual interest in the arcane arts, an observer could mistakenly assign human motives to their behaviour."
+msgid "Ipoten ..."
+msgstr ""
+
+#. [attack]: type=blade
+#. [attack]: type=impact
+#: ./Archaic_Era/units/khthon/Ipoten.cfg:60 ./Archaic_Era/units/khthon/Nightmare.cfg:57 ./Archaic_Era/units/khthon/Taraxippon.cfg:48
+msgid "slash"
 msgstr ""
 
 #. [unit_type]: id=KatobleponMagnum, race=khthon
@@ -562,18 +568,13 @@ msgid "Khalkotaurus"
 msgstr ""
 
 #. [unit_type]: id=Khalkotaurus, race=khthon
-#: ./Archaic_Era/units/khthon/Khalkotaurus.cfg:20
+#: ./Archaic_Era/units/khthon/Khalkotaurus.cfg:21
 msgid "The Khalkotaurus is a massive beast, woe to those who stumble upon it."
 msgstr ""
 
 #. [attack]: type=pierce
-#: ./Archaic_Era/units/khthon/Khalkotaurus.cfg:33 ./Archaic_Era/units/khthon/Ophis-Magnum.cfg:33 ./Archaic_Era/units/khthon/Ophis.cfg:32 ./Archaic_Era/units/khthon/Yak.cfg:30
+#: ./Archaic_Era/units/khthon/Khalkotaurus.cfg:34 ./Archaic_Era/units/khthon/Ophis-Magnum.cfg:34 ./Archaic_Era/units/khthon/Ophis.cfg:33 ./Archaic_Era/units/khthon/Yak.cfg:30
 msgid "horns"
-msgstr ""
-
-#. [attack]: type=blade
-#: ./Archaic_Era/units/khthon/Khalkotaurus.cfg:45
-msgid "claws"
 msgstr ""
 
 #. [unit_type]: id=Nightmare, race=khthon
@@ -583,7 +584,22 @@ msgstr ""
 
 #. [unit_type]: id=Nightmare, race=khthon
 #: ./Archaic_Era/units/khthon/Nightmare.cfg:21
-msgid "Contrary to what one might expect of a plague, Khthon do have individual personalities and some are more otherworldly than others. While they do not use the written records and philters of Necromancy, the knowledge seekers are drawn to the mysteries of the phantoms and spirits, and have mastered some of the undead fighting techniques."
+msgid "Nightmares ..."
+msgstr ""
+
+#. [unit_type]: id=Noble_Beast, race=khthon
+#: ./Archaic_Era/units/khthon/Noble.cfg:5
+msgid "Noble Beast"
+msgstr ""
+
+#. [unit_type]: id=Noble_Beast, race=khthon
+#: ./Archaic_Era/units/khthon/Noble.cfg:18
+msgid "Noble Beasts ..."
+msgstr ""
+
+#. [attack]: type=impact
+#: ./Archaic_Era/units/khthon/Noble.cfg:43
+msgid "cry"
 msgstr ""
 
 #. [unit_type]: id=OphisMagnum, race=khthon
@@ -592,7 +608,7 @@ msgid "Ophis-Magnum"
 msgstr ""
 
 #. [unit_type]: id=OphisMagnum, race=khthon
-#: ./Archaic_Era/units/khthon/Ophis-Magnum.cfg:20
+#: ./Archaic_Era/units/khthon/Ophis-Magnum.cfg:21
 msgid "This beast is massive and is covered in thick scales and hide, so it can absorb much damage. The Khthon has mastered its hosts body perfectly, so it is now able to fully regenerate."
 msgstr ""
 
@@ -602,7 +618,7 @@ msgid "Ophis"
 msgstr ""
 
 #. [unit_type]: id=Ophis, race=khthon
-#: ./Archaic_Era/units/khthon/Ophis.cfg:19
+#: ./Archaic_Era/units/khthon/Ophis.cfg:20
 msgid "The Khthon spirit has begun to transform its bovine victim. The hindquarters become more snake-like, and the coil increases the strike range. The combination of hoofs amd serpent tail also allows it to quickly weave through almost any terrain."
 msgstr ""
 
@@ -661,6 +677,21 @@ msgstr ""
 msgid "Rock Back (Hiding)"
 msgstr ""
 
+#. [unit_type]: id=Royal_Beast, race=khthon
+#: ./Archaic_Era/units/khthon/Royal.cfg:5
+msgid "Royal Beast"
+msgstr ""
+
+#. [unit_type]: id=Royal_Beast, race=khthon
+#: ./Archaic_Era/units/khthon/Royal.cfg:19
+msgid "Royal Beasts ..."
+msgstr ""
+
+#. [attack]: type=impact
+#: ./Archaic_Era/units/khthon/Royal.cfg:50
+msgid "sing"
+msgstr ""
+
 #. [unit_type]: id=Snapper, race=khthon
 #: ./Archaic_Era/units/khthon/Snapper.cfg:5
 msgid "Bone Snapper"
@@ -688,7 +719,7 @@ msgstr ""
 
 #. [unit_type]: id=Taraxippon, race=khthon
 #: ./Archaic_Era/units/khthon/Taraxippon.cfg:21
-msgid "Taraxippon move about in the night as if ghosts, rather than the monsters they are."
+msgid "Taraxippon ..."
 msgstr ""
 
 #. [unit_type]: id=Terrapin, race=khthon
@@ -940,11 +971,6 @@ msgstr ""
 #. [unit_type]: id=Tomb Archer, race=phantom_egypt
 #: ./Archaic_Era/units/phantom/Tomb_Archer.cfg:4
 msgid "Archer"
-msgstr ""
-
-#. [attack]: type=pierce
-#: ./Archaic_Era/units/phantom/Tomb_Archer.cfg:82
-msgid "bow"
 msgstr ""
 
 #. [unit_type]: id=Tomb Dancer, race=phantom_egypt
@@ -2387,7 +2413,7 @@ msgid "Slain foes become Khthon thralls."
 msgstr ""
 
 #. [unstore_unit]
-#: ./Archaic_Era/utils/vector_abilities.cfg:790
+#: ./Archaic_Era/utils/vector_abilities.cfg:794
 msgid "enthralled"
 msgstr ""
 
