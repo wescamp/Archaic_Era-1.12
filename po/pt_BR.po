@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Archaic_Era-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-26 22:42-0500\n"
+"POT-Creation-Date: 2013-03-28 16:52-0400\n"
 "PO-Revision-Date: 2012-09-28 02:19+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -430,7 +430,7 @@ msgstr ""
 
 #. [attack]: type=pierce
 #: Archaic_Era/units/despair/Phantom_Slayer.cfg:85
-#: Archaic_Era/units/south-seas/Shoreman.cfg:28
+#: Archaic_Era/units/south-seas/Shoreman.cfg:30
 msgid "spike"
 msgstr ""
 
@@ -2077,7 +2077,7 @@ msgstr ""
 
 #. [attack]: type=impact
 #: Archaic_Era/units/south-seas/Salvager.cfg:41
-#: Archaic_Era/units/south-seas/Shoreman.cfg:37
+#: Archaic_Era/units/south-seas/Shoreman.cfg:39
 #: Archaic_Era/units/south-seas/Wrecker.cfg:43
 msgid "rope"
 msgstr ""
@@ -2112,7 +2112,7 @@ msgstr ""
 #: Archaic_Era/units/south-seas/Seahag.cfg:21
 msgid ""
 "Seahags focus on the lore of the dark faction of Athtep and Nura. They pay "
-"homage to the fearsome gods so that those gods will leave the Seafarers "
+"tribute to the fearsome gods so that those gods will leave the Seafarers "
 "alone and destroy their enemies."
 msgstr ""
 
@@ -2140,9 +2140,9 @@ msgid "Shoreman"
 msgstr ""
 
 #. [unit_type]: id=SouthSeas Shoreman, race=south-seas_human
-#: Archaic_Era/units/south-seas/Shoreman.cfg:21
+#: Archaic_Era/units/south-seas/Shoreman.cfg:23
 msgid ""
-"The Shoreman are responsible for loading ships and breaking down retired "
+"The Shoremen are responsible for loading ships and breaking down retired "
 "vessals to reclaim the components.  Almost all of this work involves ropes, "
 "so the Shoremen are very skilled with this simple tool and can tie down even "
 "moving animals.  A spike is very helpful in making splices, as well as "
@@ -2290,7 +2290,7 @@ msgstr ""
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:59
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:58
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:58
-#: Archaic_Era/utils/Archaic_abilities.cfg:936
+#: Archaic_Era/utils/Archaic_abilities.cfg:956
 msgid "scattershot"
 msgstr ""
 
@@ -2913,47 +2913,71 @@ msgid "Free"
 msgstr ""
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:550
-msgid "tie-down"
+msgid "fog"
 msgstr ""
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:551
 msgid ""
-"Tie-Down:\n"
-"Defender cannot move for any turn in which the attacker is adjacent at "
-"start, but they can still attack."
+"Fog:\n"
+"The opponent is enveloped in an opaque fog and cannot see very well, so "
+"their chance to hit is reduced."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:750
-#: Archaic_Era/utils/Archaic_abilities.cfg:791
-#: Archaic_Era/utils/Archaic_abilities.cfg:832
-msgid "hide in shell"
+#: Archaic_Era/utils/Archaic_abilities.cfg:562
+msgid "wind-up"
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:563
+msgid ""
+"Wind-up:\n"
+"The unit has a greater chance of landing a successful blow if the enemy is "
+"distracted.  Similar to Thief's backstab, but affects chance to hit instead "
+"of damage."
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:572
+msgid "slows"
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:573
+msgid ""
+"This attack slows the target until it ends a turn. Slow halves the damage "
+"caused by attacks and the movement cost for a slowed unit is doubled. A unit "
+"that is slowed will feature a snail icon in its sidebar information when it "
+"is selected."
 msgstr ""
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:770
 #: Archaic_Era/utils/Archaic_abilities.cfg:811
 #: Archaic_Era/utils/Archaic_abilities.cfg:852
+msgid "hide in shell"
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:790
+#: Archaic_Era/utils/Archaic_abilities.cfg:831
+#: Archaic_Era/utils/Archaic_abilities.cfg:872
 msgid "stop hiding"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:879
+#: Archaic_Era/utils/Archaic_abilities.cfg:899
 msgid "selfheal"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:880
+#: Archaic_Era/utils/Archaic_abilities.cfg:900
 msgid ""
 "selfheal:\n"
 "This unit heals {AMT} HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:897
+#: Archaic_Era/utils/Archaic_abilities.cfg:917
 msgid "penumbra"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:898
+#: Archaic_Era/utils/Archaic_abilities.cfg:918
 msgid "female^penumbra"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:899
+#: Archaic_Era/utils/Archaic_abilities.cfg:919
 msgid ""
 "Penumbra:\n"
 "This unit obscures the surrounding area, making chaotic units fight better, "
@@ -2963,18 +2987,18 @@ msgid ""
 "day, and as if it were night when it is dusk."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:912
-#: Archaic_Era/utils/Archaic_abilities.cfg:914
+#: Archaic_Era/utils/Archaic_abilities.cfg:932
+#: Archaic_Era/utils/Archaic_abilities.cfg:934
 msgid "desert-stalk"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:913
-#: Archaic_Era/utils/Archaic_abilities.cfg:915
+#: Archaic_Era/utils/Archaic_abilities.cfg:933
+#: Archaic_Era/utils/Archaic_abilities.cfg:935
 msgid "female^desert-stalk"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:916
-#: Archaic_Era/utils/Archaic_abilities.cfg:920
+#: Archaic_Era/utils/Archaic_abilities.cfg:936
+#: Archaic_Era/utils/Archaic_abilities.cfg:940
 msgid ""
 "Desert-Stalk:\n"
 "This unit can hide in sand terrain, and remain undetected by its enemies.\n"
@@ -2984,7 +3008,7 @@ msgid ""
 "immediately loses all its remaining movement."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:937
+#: Archaic_Era/utils/Archaic_abilities.cfg:957
 msgid ""
 "Scattershot:\n"
 "This attack always has at least a 70% chance to hit."

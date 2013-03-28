@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Archaic_Era-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-26 22:42-0500\n"
+"POT-Creation-Date: 2013-03-28 16:52-0400\n"
 "PO-Revision-Date: 2012-04-20 19:31+0100\n"
 "Last-Translator: Guigou Guillaume <guillaume.guigou@orange.fr>\n"
 "Language-Team: Équipe de traduction française <wesnoth@ml.free.fr>\n"
@@ -458,7 +458,7 @@ msgstr "Tueur"
 
 #. [attack]: type=pierce
 #: Archaic_Era/units/despair/Phantom_Slayer.cfg:85
-#: Archaic_Era/units/south-seas/Shoreman.cfg:28
+#: Archaic_Era/units/south-seas/Shoreman.cfg:30
 msgid "spike"
 msgstr "pointe"
 
@@ -2517,7 +2517,7 @@ msgstr ""
 
 #. [attack]: type=impact
 #: Archaic_Era/units/south-seas/Salvager.cfg:41
-#: Archaic_Era/units/south-seas/Shoreman.cfg:37
+#: Archaic_Era/units/south-seas/Shoreman.cfg:39
 #: Archaic_Era/units/south-seas/Wrecker.cfg:43
 msgid "rope"
 msgstr "corde"
@@ -2551,9 +2551,10 @@ msgstr "Sorcière des mers"
 
 #. [unit_type]: id=SouthSeas Seahag, race=south-seas_human
 #: Archaic_Era/units/south-seas/Seahag.cfg:21
+#, fuzzy
 msgid ""
 "Seahags focus on the lore of the dark faction of Athtep and Nura. They pay "
-"homage to the fearsome gods so that those gods will leave the Seafarers "
+"tribute to the fearsome gods so that those gods will leave the Seafarers "
 "alone and destroy their enemies."
 msgstr ""
 "Les sorcières des mers se concentrent sur les traditions des factions "
@@ -2588,9 +2589,10 @@ msgid "Shoreman"
 msgstr "Docker"
 
 #. [unit_type]: id=SouthSeas Shoreman, race=south-seas_human
-#: Archaic_Era/units/south-seas/Shoreman.cfg:21
+#: Archaic_Era/units/south-seas/Shoreman.cfg:23
+#, fuzzy
 msgid ""
-"The Shoreman are responsible for loading ships and breaking down retired "
+"The Shoremen are responsible for loading ships and breaking down retired "
 "vessals to reclaim the components.  Almost all of this work involves ropes, "
 "so the Shoremen are very skilled with this simple tool and can tie down even "
 "moving animals.  A spike is very helpful in making splices, as well as "
@@ -2796,7 +2798,7 @@ msgstr "Connétable"
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:59
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:58
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:58
-#: Archaic_Era/utils/Archaic_abilities.cfg:936
+#: Archaic_Era/utils/Archaic_abilities.cfg:956
 msgid "scattershot"
 msgstr "tir dispersé"
 
@@ -3562,36 +3564,59 @@ msgid "Free"
 msgstr "Libéré"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:550
-msgid "tie-down"
-msgstr "arrimage"
+#, fuzzy
+msgid "fog"
+msgstr "Chien"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:551
 msgid ""
-"Tie-Down:\n"
-"Defender cannot move for any turn in which the attacker is adjacent at "
-"start, but they can still attack."
+"Fog:\n"
+"The opponent is enveloped in an opaque fog and cannot see very well, so "
+"their chance to hit is reduced."
 msgstr ""
-"Arrimage :\n"
-"Le défenseur ne peut pas bouger tant que l'attaquant se trouve à côté de "
-"lui, mais il peut toujours attaquer."
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:750
-#: Archaic_Era/utils/Archaic_abilities.cfg:791
-#: Archaic_Era/utils/Archaic_abilities.cfg:832
-msgid "hide in shell"
-msgstr "se cacher dans sa carapace"
+#: Archaic_Era/utils/Archaic_abilities.cfg:562
+#, fuzzy
+msgid "wind-up"
+msgstr "vent"
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:563
+msgid ""
+"Wind-up:\n"
+"The unit has a greater chance of landing a successful blow if the enemy is "
+"distracted.  Similar to Thief's backstab, but affects chance to hit instead "
+"of damage."
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:572
+msgid "slows"
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:573
+msgid ""
+"This attack slows the target until it ends a turn. Slow halves the damage "
+"caused by attacks and the movement cost for a slowed unit is doubled. A unit "
+"that is slowed will feature a snail icon in its sidebar information when it "
+"is selected."
+msgstr ""
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:770
 #: Archaic_Era/utils/Archaic_abilities.cfg:811
 #: Archaic_Era/utils/Archaic_abilities.cfg:852
+msgid "hide in shell"
+msgstr "se cacher dans sa carapace"
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:790
+#: Archaic_Era/utils/Archaic_abilities.cfg:831
+#: Archaic_Era/utils/Archaic_abilities.cfg:872
 msgid "stop hiding"
 msgstr "sortir de sa carapace"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:879
+#: Archaic_Era/utils/Archaic_abilities.cfg:899
 msgid "selfheal"
 msgstr "régénérant"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:880
+#: Archaic_Era/utils/Archaic_abilities.cfg:900
 msgid ""
 "selfheal:\n"
 "This unit heals {AMT} HP per turn.  If poisoned, it will remove the poison."
@@ -3600,15 +3625,15 @@ msgstr ""
 "Cette unité regagne {AMT} points de vie par tours. Si elle est empoisonnée, "
 "elle guérie du poison."
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:897
+#: Archaic_Era/utils/Archaic_abilities.cfg:917
 msgid "penumbra"
 msgstr "pénombre"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:898
+#: Archaic_Era/utils/Archaic_abilities.cfg:918
 msgid "female^penumbra"
 msgstr "pénombre"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:899
+#: Archaic_Era/utils/Archaic_abilities.cfg:919
 msgid ""
 "Penumbra:\n"
 "This unit obscures the surrounding area, making chaotic units fight better, "
@@ -3624,18 +3649,18 @@ msgstr ""
 "Les unités adjacentes à cette unité combattront le jour comme si c'était le "
 "crépuscule, et comme s'il faisait nuit au crépuscule."
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:912
-#: Archaic_Era/utils/Archaic_abilities.cfg:914
+#: Archaic_Era/utils/Archaic_abilities.cfg:932
+#: Archaic_Era/utils/Archaic_abilities.cfg:934
 msgid "desert-stalk"
 msgstr "être du désert"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:913
-#: Archaic_Era/utils/Archaic_abilities.cfg:915
+#: Archaic_Era/utils/Archaic_abilities.cfg:933
+#: Archaic_Era/utils/Archaic_abilities.cfg:935
 msgid "female^desert-stalk"
 msgstr "être du désert"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:916
-#: Archaic_Era/utils/Archaic_abilities.cfg:920
+#: Archaic_Era/utils/Archaic_abilities.cfg:936
+#: Archaic_Era/utils/Archaic_abilities.cfg:940
 msgid ""
 "Desert-Stalk:\n"
 "This unit can hide in sand terrain, and remain undetected by its enemies.\n"
@@ -3653,7 +3678,7 @@ msgstr ""
 "ennemi qui découvre en premier cette unité perd immédiatement tous ses "
 "points de mouvement."
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:937
+#: Archaic_Era/utils/Archaic_abilities.cfg:957
 msgid ""
 "Scattershot:\n"
 "This attack always has at least a 70% chance to hit."
@@ -3703,6 +3728,18 @@ msgstr "Les adversaires massacrés deviennent des serfs chthoniens."
 #: Archaic_Era/utils/vector_abilities.cfg:794
 msgid "enthralled"
 msgstr "captivés"
+
+#~ msgid "tie-down"
+#~ msgstr "arrimage"
+
+#~ msgid ""
+#~ "Tie-Down:\n"
+#~ "Defender cannot move for any turn in which the attacker is adjacent at "
+#~ "start, but they can still attack."
+#~ msgstr ""
+#~ "Arrimage :\n"
+#~ "Le défenseur ne peut pas bouger tant que l'attaquant se trouve à côté de "
+#~ "lui, mais il peut toujours attaquer."
 
 #~ msgid ""
 #~ "Ipoten maintain their unusual interest in the arcane arts, an observer "

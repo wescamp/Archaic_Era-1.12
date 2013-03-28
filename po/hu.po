@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Archaic_Era-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-26 22:42-0500\n"
+"POT-Creation-Date: 2013-03-28 16:52-0400\n"
 "PO-Revision-Date: 2012-02-15 17:14+0100\n"
 "Last-Translator: Kelemen Zoltan <kelemen_zoltan@freemail.hu>\n"
 "Language-Team: none\n"
@@ -443,7 +443,7 @@ msgstr "Vérengző"
 
 #. [attack]: type=pierce
 #: Archaic_Era/units/despair/Phantom_Slayer.cfg:85
-#: Archaic_Era/units/south-seas/Shoreman.cfg:28
+#: Archaic_Era/units/south-seas/Shoreman.cfg:30
 msgid "spike"
 msgstr "karó"
 
@@ -2423,7 +2423,7 @@ msgstr ""
 
 #. [attack]: type=impact
 #: Archaic_Era/units/south-seas/Salvager.cfg:41
-#: Archaic_Era/units/south-seas/Shoreman.cfg:37
+#: Archaic_Era/units/south-seas/Shoreman.cfg:39
 #: Archaic_Era/units/south-seas/Wrecker.cfg:43
 msgid "rope"
 msgstr "kötél"
@@ -2457,9 +2457,10 @@ msgstr "Tengeri csoroszlya"
 
 #. [unit_type]: id=SouthSeas Seahag, race=south-seas_human
 #: Archaic_Era/units/south-seas/Seahag.cfg:21
+#, fuzzy
 msgid ""
 "Seahags focus on the lore of the dark faction of Athtep and Nura. They pay "
-"homage to the fearsome gods so that those gods will leave the Seafarers "
+"tribute to the fearsome gods so that those gods will leave the Seafarers "
 "alone and destroy their enemies."
 msgstr ""
 "A tengeri csoroszlyák Athtep és Nura sötét tudományának művelői. Mély "
@@ -2493,9 +2494,10 @@ msgid "Shoreman"
 msgstr "Parti őr"
 
 #. [unit_type]: id=SouthSeas Shoreman, race=south-seas_human
-#: Archaic_Era/units/south-seas/Shoreman.cfg:21
+#: Archaic_Era/units/south-seas/Shoreman.cfg:23
+#, fuzzy
 msgid ""
-"The Shoreman are responsible for loading ships and breaking down retired "
+"The Shoremen are responsible for loading ships and breaking down retired "
 "vessals to reclaim the components.  Almost all of this work involves ropes, "
 "so the Shoremen are very skilled with this simple tool and can tie down even "
 "moving animals.  A spike is very helpful in making splices, as well as "
@@ -2695,7 +2697,7 @@ msgstr "Rendőr"
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:59
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:58
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:58
-#: Archaic_Era/utils/Archaic_abilities.cfg:936
+#: Archaic_Era/utils/Archaic_abilities.cfg:956
 msgid "scattershot"
 msgstr "célzott támadás"
 
@@ -3448,36 +3450,59 @@ msgid "Free"
 msgstr "Függetlenség"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:550
-msgid "tie-down"
-msgstr "lecövekelés"
+#, fuzzy
+msgid "fog"
+msgstr "Kutya"
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:551
 msgid ""
-"Tie-Down:\n"
-"Defender cannot move for any turn in which the attacker is adjacent at "
-"start, but they can still attack."
+"Fog:\n"
+"The opponent is enveloped in an opaque fog and cannot see very well, so "
+"their chance to hit is reduced."
 msgstr ""
-"Lecövekelés:\n"
-"A védő mindaddig nem tud elmozdulni a helyéről, míg a támadó egység a kör "
-"elején mellette áll, bár támadni képes."
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:750
-#: Archaic_Era/utils/Archaic_abilities.cfg:791
-#: Archaic_Era/utils/Archaic_abilities.cfg:832
-msgid "hide in shell"
-msgstr "Begubózás"
+#: Archaic_Era/utils/Archaic_abilities.cfg:562
+#, fuzzy
+msgid "wind-up"
+msgstr "szél"
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:563
+msgid ""
+"Wind-up:\n"
+"The unit has a greater chance of landing a successful blow if the enemy is "
+"distracted.  Similar to Thief's backstab, but affects chance to hit instead "
+"of damage."
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:572
+msgid "slows"
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:573
+msgid ""
+"This attack slows the target until it ends a turn. Slow halves the damage "
+"caused by attacks and the movement cost for a slowed unit is doubled. A unit "
+"that is slowed will feature a snail icon in its sidebar information when it "
+"is selected."
+msgstr ""
 
 #: Archaic_Era/utils/Archaic_abilities.cfg:770
 #: Archaic_Era/utils/Archaic_abilities.cfg:811
 #: Archaic_Era/utils/Archaic_abilities.cfg:852
+msgid "hide in shell"
+msgstr "Begubózás"
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:790
+#: Archaic_Era/utils/Archaic_abilities.cfg:831
+#: Archaic_Era/utils/Archaic_abilities.cfg:872
 msgid "stop hiding"
 msgstr "Kijövetel a burokból"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:879
+#: Archaic_Era/utils/Archaic_abilities.cfg:899
 msgid "selfheal"
 msgstr "öngyógyulás"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:880
+#: Archaic_Era/utils/Archaic_abilities.cfg:900
 msgid ""
 "selfheal:\n"
 "This unit heals {AMT} HP per turn.  If poisoned, it will remove the poison."
@@ -3486,15 +3511,15 @@ msgstr ""
 "Ez az egység {AMT} ÉP-t gyógyul körönként. Ha megmérgeződik, kigyógyul a "
 "mérgeződésből."
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:897
+#: Archaic_Era/utils/Archaic_abilities.cfg:917
 msgid "penumbra"
 msgstr "homályosítás"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:898
+#: Archaic_Era/utils/Archaic_abilities.cfg:918
 msgid "female^penumbra"
 msgstr "homályosítás"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:899
+#: Archaic_Era/utils/Archaic_abilities.cfg:919
 msgid ""
 "Penumbra:\n"
 "This unit obscures the surrounding area, making chaotic units fight better, "
@@ -3510,18 +3535,18 @@ msgstr ""
 "Bármelyik szomszédos mezőn álló egység úgy harcol nappal, mintha alkonyat "
 "lenne, s alkonyatkor és hajnalban úgy, mintha éjszaka lenne."
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:912
-#: Archaic_Era/utils/Archaic_abilities.cfg:914
+#: Archaic_Era/utils/Archaic_abilities.cfg:932
+#: Archaic_Era/utils/Archaic_abilities.cfg:934
 msgid "desert-stalk"
 msgstr "homokbaolvadás"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:913
-#: Archaic_Era/utils/Archaic_abilities.cfg:915
+#: Archaic_Era/utils/Archaic_abilities.cfg:933
+#: Archaic_Era/utils/Archaic_abilities.cfg:935
 msgid "female^desert-stalk"
 msgstr "homokbaolvadás"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:916
-#: Archaic_Era/utils/Archaic_abilities.cfg:920
+#: Archaic_Era/utils/Archaic_abilities.cfg:936
+#: Archaic_Era/utils/Archaic_abilities.cfg:940
 msgid ""
 "Desert-Stalk:\n"
 "This unit can hide in sand terrain, and remain undetected by its enemies.\n"
@@ -3538,7 +3563,7 @@ msgstr ""
 "mellé nem érnek. Amelyik ellenséges egység először észleli az egységet, "
 "elveszti esetlegesen még meglévő mozgáspontjait."
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:937
+#: Archaic_Era/utils/Archaic_abilities.cfg:957
 msgid ""
 "Scattershot:\n"
 "This attack always has at least a 70% chance to hit."
@@ -3590,6 +3615,18 @@ msgstr "A megölt ellenségek khthon rabszolgává válnak."
 #, fuzzy
 msgid "enthralled"
 msgstr "Elbűvölt"
+
+#~ msgid "tie-down"
+#~ msgstr "lecövekelés"
+
+#~ msgid ""
+#~ "Tie-Down:\n"
+#~ "Defender cannot move for any turn in which the attacker is adjacent at "
+#~ "start, but they can still attack."
+#~ msgstr ""
+#~ "Lecövekelés:\n"
+#~ "A védő mindaddig nem tud elmozdulni a helyéről, míg a támadó egység a kör "
+#~ "elején mellette áll, bár támadni képes."
 
 #, fuzzy
 #~ msgid "claws"
