@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Archaic_Era-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-28 16:52-0400\n"
+"POT-Creation-Date: 2013-04-05 15:15-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,23 +10,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. [era]: id=ARCHAIC_ERA
 #. [era]: id=ARCHAIC_ERA_II
-#: ./Archaic_Era/eras/Archaic_Era.cfg:38
+#: ./Archaic_Era/eras/Archaic_Era.cfg:41 ./Archaic_Era/eras/Archaic_Era.cfg:143
 msgid "Archaic Era"
 msgstr ""
 
-#. [era]: id=ARCHAIC_ERA
-#: ./Archaic_Era/eras/Archaic_Era.cfg:139
-msgid "Archaic Clean"
-msgstr ""
-
 #. [era]: id=ARCHAIC_ERA_HEROS
-#: ./Archaic_Era/eras/Archaic_Era.cfg:161
+#: ./Archaic_Era/eras/Archaic_Era.cfg:165
 msgid "Archaic Heros"
 msgstr ""
 
 #. [era]: id=ARCHAIC_ERA_RPG
-#: ./Archaic_Era/eras/Archaic_Era.cfg:180
+#: ./Archaic_Era/eras/Archaic_Era.cfg:184
 msgid "Archaic RPG"
 msgstr ""
 
@@ -51,6 +47,7 @@ msgstr ""
 
 #. [multiplayer_side]: id=Archaic_Phantom, type=Tomb Protector
 #. [multiplayer_side]: id=Archaic_Phantom, type=Tomb Sentinel
+#. [multiplayer_side]: id=Archaic_Phantom, type=Tomb Shield
 #: ./Archaic_Era/eras/base/phantom_MP.cfg:5 ./Archaic_Era/eras/heros/phantom_MP.cfg:5 ./Archaic_Era/eras/rpg/phantom_MP.cfg:5
 msgid "Phantom"
 msgstr ""
@@ -155,7 +152,6 @@ msgid "Stone Warrior"
 msgstr ""
 
 #. [race]: id=despair_wisp
-#. [race]: id=phantom_egypt
 #. [race]: id=phantom_spirit
 #. [unit_type]: id=Hypergusa, race=khthon
 #. [unit_type]: id=KatobleponMagnum, race=khthon
@@ -187,18 +183,15 @@ msgstr ""
 #. [unit_type]: id=Spirit Dove, race=phantom_spirit
 #. [unit_type]: id=Spirit Jay, race=phantom_spirit
 #. [unit_type]: id=Tomb Archer, race=phantom_egypt
-#. [unit_type]: id=Tomb Dancer, race=phantom_egypt
-#. [unit_type]: id=Tomb Guard, race=phantom_egypt
 #. [unit_type]: id=Tomb HighArcher, race=phantom_egypt
 #. [unit_type]: id=Tomb Huntress, race=phantom_egypt
-#. [unit_type]: id=Tomb Master, race=phantom_egypt
 #. [unit_type]: id=Tomb Mummy, race=phantom_egypt
 #. [unit_type]: id=Tomb Protector, race=phantom_egypt
 #. [unit_type]: id=Tomb Sentinel, race=phantom_egypt
+#. [unit_type]: id=Tomb Shield, race=phantom_egypt
 #. [unit_type]: id=Tomb Stalker, race=phantom_egypt
-#. [unit_type]: id=Tomb Wing, race=phantom_egypt
 #. [unit_type]: id=Ukian War Hound, race=ukiandog
-#: ./Archaic_Era/units/despair/Phantom_Armor.cfg:35 ./Archaic_Era/units/despair/Phantom_Cloak.cfg:21 ./Archaic_Era/units/despair/Phantom_Dullohan.cfg:20 ./Archaic_Era/units/despair/Phantom_Horseman.cfg:19 ./Archaic_Era/units/despair/Phantom_Master.cfg:21 ./Archaic_Era/units/despair/Phantom_Officer.cfg:78 ./Archaic_Era/units/despair/Phantom_Rider.cfg:19 ./Archaic_Era/units/despair/Phantom_Shadow.cfg:21 ./Archaic_Era/units/despair/Phantom_Slayer.cfg:20 ./Archaic_Era/units/despair/Phantom_Stone.cfg:34 ./Archaic_Era/units/despair_race.cfg:21 ./Archaic_Era/units/khthon/Hypergusa.cfg:19 ./Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:19 ./Archaic_Era/units/khthon/Pyradalon.cfg:19 ./Archaic_Era/units/phantom/Spirit_Dove.cfg:19 ./Archaic_Era/units/phantom/Spirit_Jay.cfg:20 ./Archaic_Era/units/phantom/Tomb_Archer.cfg:20 ./Archaic_Era/units/phantom/Tomb_Feather.cfg:21 ./Archaic_Era/units/phantom/Tomb_Guardian.cfg:19 ./Archaic_Era/units/phantom/Tomb_HighArcher.cfg:21 ./Archaic_Era/units/phantom/Tomb_Huntress.cfg:20 ./Archaic_Era/units/phantom/Tomb_Master.cfg:21 ./Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:21 ./Archaic_Era/units/phantom/Tomb_Mummy-Pharo.cfg:22 ./Archaic_Era/units/phantom/Tomb_Mummy-Unbound.cfg:19 ./Archaic_Era/units/phantom/Tomb_Mummy.cfg:19 ./Archaic_Era/units/phantom/Tomb_Protector.cfg:20 ./Archaic_Era/units/phantom/Tomb_Sentinel.cfg:19 ./Archaic_Era/units/phantom/Tomb_Stalker.cfg:21 ./Archaic_Era/units/phantom/Tomb_Wing.cfg:21 ./Archaic_Era/units/phantom_race.cfg:22 ./Archaic_Era/units/phantom_race.cfg:36 ./Archaic_Era/units/south-seas/Demolitionist.cfg:21 ./Archaic_Era/units/south-seas/Divers.cfg:44 ./Archaic_Era/units/south-seas/Marines.cfg:46 ./Archaic_Era/units/south-seas/Scourge.cfg:22 ./Archaic_Era/units/south-seas/Sky-Caller.cfg:22 ./Archaic_Era/units/south-seas/Spitfire.cfg:22 ./Archaic_Era/units/south-seas/Wolf.cfg:22 ./Archaic_Era/units/ukians/Royal_Constable.cfg:20 ./Archaic_Era/units/ukians/Royal_Sheriff.cfg:19 ./Archaic_Era/units/ukians/Royal_Soldier.cfg:20 ./Archaic_Era/units/ukians/Royal_Vassal.cfg:19 ./Archaic_Era/units/ukians/Ukian_Wardog.cfg:94
+#: ./Archaic_Era/units/despair/Phantom_Armor.cfg:35 ./Archaic_Era/units/despair/Phantom_Cloak.cfg:21 ./Archaic_Era/units/despair/Phantom_Dullohan.cfg:20 ./Archaic_Era/units/despair/Phantom_Horseman.cfg:19 ./Archaic_Era/units/despair/Phantom_Master.cfg:21 ./Archaic_Era/units/despair/Phantom_Officer.cfg:78 ./Archaic_Era/units/despair/Phantom_Rider.cfg:19 ./Archaic_Era/units/despair/Phantom_Shadow.cfg:21 ./Archaic_Era/units/despair/Phantom_Slayer.cfg:20 ./Archaic_Era/units/despair/Phantom_Stone.cfg:34 ./Archaic_Era/units/despair_race.cfg:21 ./Archaic_Era/units/khthon/Hypergusa.cfg:19 ./Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:19 ./Archaic_Era/units/khthon/Pyradalon.cfg:19 ./Archaic_Era/units/phantom/Spirit_Dove.cfg:19 ./Archaic_Era/units/phantom/Spirit_Jay.cfg:20 ./Archaic_Era/units/phantom/Tomb_Archer.cfg:20 ./Archaic_Era/units/phantom/Tomb_HighArcher.cfg:21 ./Archaic_Era/units/phantom/Tomb_Huntress.cfg:20 ./Archaic_Era/units/phantom/Tomb_Mummy-King.cfg:21 ./Archaic_Era/units/phantom/Tomb_Mummy-Pharo.cfg:22 ./Archaic_Era/units/phantom/Tomb_Mummy-Unbound.cfg:21 ./Archaic_Era/units/phantom/Tomb_Mummy.cfg:19 ./Archaic_Era/units/phantom/Tomb_Protector.cfg:20 ./Archaic_Era/units/phantom/Tomb_Sentinel.cfg:19 ./Archaic_Era/units/phantom/Tomb_Shield.cfg:21 ./Archaic_Era/units/phantom/Tomb_Stalker.cfg:21 ./Archaic_Era/units/phantom_race.cfg:41 ./Archaic_Era/units/south-seas/Demolitionist.cfg:21 ./Archaic_Era/units/south-seas/Divers.cfg:44 ./Archaic_Era/units/south-seas/Marines.cfg:46 ./Archaic_Era/units/south-seas/Scourge.cfg:22 ./Archaic_Era/units/south-seas/Sky-Caller.cfg:22 ./Archaic_Era/units/south-seas/Spitfire.cfg:22 ./Archaic_Era/units/south-seas/Wolf.cfg:22 ./Archaic_Era/units/ukians/Royal_Constable.cfg:20 ./Archaic_Era/units/ukians/Royal_Sheriff.cfg:19 ./Archaic_Era/units/ukians/Royal_Soldier.cfg:20 ./Archaic_Era/units/ukians/Royal_Vassal.cfg:19 ./Archaic_Era/units/ukians/Ukian_Wardog.cfg:94
 msgid "..."
 msgstr ""
 
@@ -978,14 +971,24 @@ msgstr ""
 msgid "Feather Dancer"
 msgstr ""
 
+#. [unit_type]: id=Tomb Dancer, race=phantom_egypt
+#: ./Archaic_Era/units/phantom/Tomb_Feather.cfg:21
+msgid "These shades were adherents of a ceremonial combat style.  They are able to move with a confusing grace which makes them difficult hem in."
+msgstr ""
+
 #. [unit_type]: id=Tomb Guard, race=phantom_egypt
 #: ./Archaic_Era/units/phantom/Tomb_Guardian.cfg:4
 msgid "Tomb Guard"
 msgstr ""
 
+#. [unit_type]: id=Tomb Guard, race=phantom_egypt
+#: ./Archaic_Era/units/phantom/Tomb_Guardian.cfg:19
+msgid "The tombs of the Astragartan Empire were tended to by a type of monk charged with both preparing the bodies for the afterlife and providing defense against any physical assault on the Astragarten legacy.  Under some conditions, these monks can bring slain foes under the sway of their forgotten spirituality."
+msgstr ""
+
 #. [attack]: type=arcane
 #. [attack]: type=cold
-#: ./Archaic_Era/units/phantom/Tomb_Guardian.cfg:84 ./Archaic_Era/units/phantom/Tomb_Protector.cfg:94 ./Archaic_Era/units/phantom/Tomb_Sentinel.cfg:84
+#: ./Archaic_Era/units/phantom/Tomb_Guardian.cfg:84 ./Archaic_Era/units/phantom/Tomb_Protector.cfg:94 ./Archaic_Era/units/phantom/Tomb_Sentinel.cfg:84 ./Archaic_Era/units/phantom/Tomb_Shield.cfg:86
 msgid "glance"
 msgstr ""
 
@@ -1005,17 +1008,22 @@ msgid "Huntress"
 msgstr ""
 
 #. [unit_type]: id=Tomb Master, race=phantom_egypt
-#: ./Archaic_Era/units/phantom/Tomb_Master.cfg:4
-msgid "Wing Master"
+#: ./Archaic_Era/units/phantom/Tomb_Master.cfg:5
+msgid "Winged Warrior"
+msgstr ""
+
+#. [unit_type]: id=Tomb Master, race=phantom_egypt
+#: ./Archaic_Era/units/phantom/Tomb_Master.cfg:22
+msgid "The most disciplined and dedicated sword-dancers have, with the help of the temple scribes, achieved superhuman capabilities.  Their feathers have become a part of their bodies, and they are no longer anchored to the ground.  Because of their dedicated and ferocious nature, they have learned to arm and use their feet as talons.  The Astragartan Empire was possibly the first civilization to successfully harness the world's strange magic for use by its warrior class, so these holy warriors and their tactics were inspiration for those who came later."
 msgstr ""
 
 #. [attack]: type=blade
-#: ./Archaic_Era/units/phantom/Tomb_Master.cfg:78 ./Archaic_Era/units/phantom/Tomb_Wing.cfg:77
+#: ./Archaic_Era/units/phantom/Tomb_Master.cfg:80 ./Archaic_Era/units/phantom/Tomb_Wing.cfg:78
 msgid "kopis"
 msgstr ""
 
 #. [attack]: type=blade
-#: ./Archaic_Era/units/phantom/Tomb_Master.cfg:90
+#: ./Archaic_Era/units/phantom/Tomb_Master.cfg:92
 msgid "claw"
 msgstr ""
 
@@ -1060,15 +1068,20 @@ msgid "Tomb Sentinel"
 msgstr ""
 
 #. [unit_type]: id=Tomb Shade, race=phantom_egypt
-#: ./Archaic_Era/units/phantom/Tomb_Shade.cfg:131
+#: ./Archaic_Era/units/phantom/Tomb_Shade.cfg:149
 msgid "Vapor"
 msgstr ""
 
 #. [unit_type]: id=Tomb Shade, race=phantom_egypt
-#: ./Archaic_Era/units/phantom/Tomb_Shade.cfg:139
+#: ./Archaic_Era/units/phantom/Tomb_Shade.cfg:157
 msgid ""
-"The Vapor can take the form of a real fighter, but the deception is apparent when the opponent attacks and the vapor dissipates. The vapor also loses purpose and integrity if it does not engage with the enemy.\n"
-"Special Note:  The phantom generated from this unit will die when struck by an attacker, regardless of hitpoints.  It will also die if it does not engage the enemy for two turns.  It will not automatically die if it is hit by a defender's retaliation."
+"The Vapor can take the form of a real fighter, but the deception is apparent when the opponent attacks and the vapor dissipates.\n"
+"Special Note:  The phantom generated from this unit will die when struck by an attacker, regardless of hitpoints."
+msgstr ""
+
+#. [unit_type]: id=Tomb Shield, race=phantom_egypt
+#: ./Archaic_Era/units/phantom/Tomb_Shield.cfg:5
+msgid "Tomb Shield-Guard"
 msgstr ""
 
 #. [unit_type]: id=Tomb Stalker, race=phantom_egypt
@@ -1079,6 +1092,11 @@ msgstr ""
 #. [unit_type]: id=Tomb Wing, race=phantom_egypt
 #: ./Archaic_Era/units/phantom/Tomb_Wing.cfg:4
 msgid "Wing Dancer"
+msgstr ""
+
+#. [unit_type]: id=Tomb Wing, race=phantom_egypt
+#: ./Archaic_Era/units/phantom/Tomb_Wing.cfg:21
+msgid "Higher priestesses of the strange sword-dance are fearsome warriors, but they still have the same ability to feignt and distract the opponent so that they can slip through gaps in enemy formations."
 msgstr ""
 
 #. [race]: id=phantom_wales
@@ -1112,37 +1130,48 @@ msgid "race^Ancient Phantoms"
 msgstr ""
 
 #. [race]: id=phantom_egypt
-#: ./Archaic_Era/units/phantom_race.cfg:25
+#: ./Archaic_Era/units/phantom_race.cfg:22
+msgid ""
+"Long, long ago, there was a powerful empire, founded by the ruthless but wise Astragartesh of Horajha.  Horajha was a small island, far to the south of any lands known to the much more recent kingdom of Wesnoth.  Astragartesh and a small band of followers left Horajha in a fleet of canoes, to arrive at the shores of the Thrascic Kingdom.  There are no records of what happened, but somehow, Astragartesh gained control of the kingdom.  Neighboring kingdoms and tribes were quickly brought under Astragertesh's thumb - valiant warriors were not able to stand up to Astragartesh's forces because of some special edge they possessed.  The enemies of Astragartesh called it black magic; their leaders would die mysteriously, and their fighters were subjected to dazzling and ennervating sights.  It was not long before Astragartesh had laid claim to the entire southern continent he had made landfall with his canoe so many years before.\n"
+"\n"
+"As impressive as his conquest had been, the real genius of Astragartesh was his attention to his legacy.  The powers that he had used to achieve his successes were enshrined in something resembling a theocracy - a blending of religious dogma and legal code.  The empire he established was thus not dependent upon individuals, and it lived long after Astragartesh no longer walked the earth.\n"
+"\n"
+"The Astragartan Empire was almost a force of nature, nothing and no one in the southern hemishpere could even dream of challenging it.  But one day, something from far away, something not even of this world, paid a visit.  This outsider was bent upon destruction, and so the Astragartan Empire rallied its forces to remove the threat.  In the long and confusing war that followed, the Astragartan Empire learned that it was not the only side capable of using 'black magic'.  It was only about three years before the entire Empire had been brought under the thumb of this outsider, this one that was known as 'Destroyer'.  The once proud Astragartan Empire had become the cursed spirit army of this Destroyer, and it was fortunate for all subsequent generations of the world that the Empire forces were successfully banished to the empty 'dark realm' along with the last Emperor and incarnation of the Destroyer:  Seth.\n"
+""
+msgstr ""
+
+#. [race]: id=phantom_egypt
+#: ./Archaic_Era/units/phantom_race.cfg:30
 msgid "Abasi, Abayomi, Adio, Adofo, Akhenaten, Akiiki, Amenhotep, Azibo, Baba, Badru, Bakari, Bomani, Chatuluka, Cheops, Chigaru, Dakarai, Darius, Darwishi, Donkor, Edfu, Fadil, Gahigi, Garai, Hamadi, Hanif, Hapu, Hasani, Heru, Horemheb, Idogbe, Ishaq, Jabari, Jumoke, Kek, Khalfani, Khnurun, Lateef, Makalani, Manu, Matsimela, Menkaura"
 msgstr ""
 
 #. [race]: id=phantom_egypt
-#: ./Archaic_Era/units/phantom_race.cfg:26
+#: ./Archaic_Era/units/phantom_race.cfg:31
 msgid "Acenath, Ain, Akila, Anippe, Aziza, Bahiti, Bastet, Bennu, Chione, Dalila, Dendera, Eboni, Eshe, Fukayana, Habibah, Halima, Haqika, Hasina, Hathor, Hatsheput, Heqet, Ife, Jamila, Jendaya, Kakra, Kanika, Kesi, Khepri, Kissa, Lapis, Layla, Lotus, Mafuane, Maibe, Mandisa, Meht Urt, Mert Ekert, Meskhenet, Nathifa, Nefertiti"
 msgstr ""
 
 #. [race]: id=phantom_spirit
-#: ./Archaic_Era/units/phantom_race.cfg:31
+#: ./Archaic_Era/units/phantom_race.cfg:36
 msgid "race^Ancient Spirit"
 msgstr ""
 
 #. [race]: id=phantom_spirit
-#: ./Archaic_Era/units/phantom_race.cfg:32
+#: ./Archaic_Era/units/phantom_race.cfg:37
 msgid "race+female^Ancient Spirit"
 msgstr ""
 
 #. [race]: id=phantom_spirit
-#: ./Archaic_Era/units/phantom_race.cfg:33
+#: ./Archaic_Era/units/phantom_race.cfg:38
 msgid "race^Ancient Spirits"
 msgstr ""
 
 #. [race]: id=phantom_spirit
-#: ./Archaic_Era/units/phantom_race.cfg:39
+#: ./Archaic_Era/units/phantom_race.cfg:44
 msgid "Aha, Bhe, Coh, Dhan, Eth, Fye, Gra, Het, Ish, Khur, Leth, Mahg, Nyth, Oro, Re"
 msgstr ""
 
 #. [race]: id=phantom_spirit
-#: ./Archaic_Era/units/phantom_race.cfg:40
+#: ./Archaic_Era/units/phantom_race.cfg:45
 msgid "Ara, Ba, Cam, Dra, Era, Fea, Goa, Hae, Ira"
 msgstr ""
 
@@ -1817,7 +1846,7 @@ msgid "Constable"
 msgstr ""
 
 #. [attack]: type=impact
-#: ./Archaic_Era/units/ukians/Royal_Constable.cfg:59 ./Archaic_Era/units/ukians/Royal_Sheriff.cfg:58 ./Archaic_Era/units/ukians/Royal_Vassal.cfg:58 ./Archaic_Era/utils/Archaic_abilities.cfg:956
+#: ./Archaic_Era/units/ukians/Royal_Constable.cfg:59 ./Archaic_Era/units/ukians/Royal_Sheriff.cfg:58 ./Archaic_Era/units/ukians/Royal_Vassal.cfg:58 ./Archaic_Era/utils/Archaic_abilities.cfg:966
 msgid "scattershot"
 msgstr ""
 
@@ -1937,7 +1966,7 @@ msgid "Commandos are accustomed to operating alone, and as a result have learned
 msgstr ""
 
 #. [leadership]: id=leadership
-#: ./Archaic_Era/units/ukians/Ukian_Commando.cfg:31 ./Archaic_Era/units/ukians/Ukian_Courrier.cfg:32 ./Archaic_Era/units/ukians/Ukian_Runner.cfg:40 ./Archaic_Era/utils/Archaic_abilities.cfg:71
+#: ./Archaic_Era/units/ukians/Ukian_Commando.cfg:31 ./Archaic_Era/units/ukians/Ukian_Courrier.cfg:32 ./Archaic_Era/units/ukians/Ukian_Runner.cfg:40 ./Archaic_Era/utils/Archaic_abilities.cfg:81
 msgid "dog trainer"
 msgstr ""
 
@@ -1947,7 +1976,7 @@ msgid "dog female^trainer"
 msgstr ""
 
 #. [leadership]: id=leadership
-#: ./Archaic_Era/units/ukians/Ukian_Commando.cfg:33 ./Archaic_Era/units/ukians/Ukian_Courrier.cfg:34 ./Archaic_Era/units/ukians/Ukian_Runner.cfg:42 ./Archaic_Era/utils/Archaic_abilities.cfg:73
+#: ./Archaic_Era/units/ukians/Ukian_Commando.cfg:33 ./Archaic_Era/units/ukians/Ukian_Courrier.cfg:34 ./Archaic_Era/units/ukians/Ukian_Runner.cfg:42 ./Archaic_Era/utils/Archaic_abilities.cfg:83
 msgid ""
 "Dog Trainer:\n"
 "This unit can lead Ukian Dogs that are next to it, making them fight better."
@@ -2192,57 +2221,67 @@ msgstr ""
 msgid "female^zealous"
 msgstr ""
 
+#. [plague]: id=ae_embalm, type=Tomb Mummy
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:47
+msgid "embalm"
+msgstr ""
+
+#. [plague]: id=ae_embalm, type=Tomb Mummy
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:48
+msgid "When a unit is killed by an embalm attack, that unit is replaced with a mummy of the attacker's side."
+msgstr ""
+
 #. [resistance]: id=aa_dance
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:57
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:67
 msgid "dancer"
 msgstr ""
 
 #. [resistance]: id=aa_dance
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:58
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:68
 msgid "female^dancer"
 msgstr ""
 
 #. [resistance]: id=aa_dance
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:59
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:69
 msgid ""
 "Dancer:\n"
 "This unit's physical (pierce, impact, blade) resistances are doubled, up to a maximum of 60%, when attacking because the enemy cannot get a direct hit."
 msgstr ""
 
 #. [leadership]: id=leadership
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:72
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:82
 msgid "female^dog trainer"
 msgstr ""
 
 #. [heals]: id=aa_trinkets
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:91
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:101
 msgid "anti-poison"
 msgstr ""
 
 #. [heals]: id=aa_trinkets
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:92
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:102
 msgid "female^anti-poison"
 msgstr ""
 
 #. [heals]: id=aa_trinkets
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:93
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:103
 msgid ""
 "Anti-poison:\n"
 "Allows the unit to avoid the effects of poison, but the poisoned unit cannot be cured of its poison by this ability, and must seek the care of a village or a unit that can cure."
 msgstr ""
 
 #. [heals]: id=aa_healing
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:109
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:119
 msgid "heals +"
 msgstr ""
 
 #. [heals]: id=aa_healing
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:110
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:120
 msgid "female^heals +"
 msgstr ""
 
 #. [heals]: id=aa_healing
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:111
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:121
 msgid ""
 "Heals +{AMT}:\n"
 "Allows the unit to heal adjacent allied units at the beginning of our turn.\n"
@@ -2252,119 +2291,119 @@ msgid ""
 msgstr ""
 
 #. [regenerate]: id=aa_immortal
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:130
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:140
 msgid "immortal"
 msgstr ""
 
 #. [regenerate]: id=aa_immortal
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:131
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:141
 msgid "female^immortal"
 msgstr ""
 
 #. [regenerate]: id=aa_immortal
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:132
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:142
 msgid ""
 "immortal:\n"
 "This unit heals 99 HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 
 #. [dummy]: id=aa_intangible
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:142
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:152
 msgid "intangible"
 msgstr ""
 
 #. [dummy]: id=aa_intangible
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:143
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:153
 msgid "female^intangible"
 msgstr ""
 
 #. [dummy]: id=aa_intangible
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:144
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:154
 msgid ""
 "Intangible:\n"
 "This unit uses only one movement point per attack, rather than all of its movement points like most other units."
 msgstr ""
 
 #. [resistance]: id=aa_stone
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:153
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:163
 msgid "stone"
 msgstr ""
 
 #. [resistance]: id=aa_stone
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:154
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:164
 msgid "female^stone"
 msgstr ""
 
 #. [resistance]: id=aa_stone
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:155
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:165
 msgid ""
 "Stone:\n"
 "This unit is stone in the daylight, if not next to an ally or in a village, but is always mobile at night."
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:458
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:468
 msgid "release stoned victims"
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:494 ./Archaic_Era/utils/Archaic_abilities.cfg:539
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:504 ./Archaic_Era/utils/Archaic_abilities.cfg:549
 msgid "Free"
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:550
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:560
 msgid "fog"
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:551
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:561
 msgid ""
 "Fog:\n"
 "The opponent is enveloped in an opaque fog and cannot see very well, so their chance to hit is reduced."
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:562
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:572
 msgid "wind-up"
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:563
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:573
 msgid ""
 "Wind-up:\n"
 "The unit has a greater chance of landing a successful blow if the enemy is distracted.  Similar to Thief's backstab, but affects chance to hit instead of damage."
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:572
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:582
 msgid "slows"
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:573
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:583
 msgid "This attack slows the target until it ends a turn. Slow halves the damage caused by attacks and the movement cost for a slowed unit is doubled. A unit that is slowed will feature a snail icon in its sidebar information when it is selected."
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:770 ./Archaic_Era/utils/Archaic_abilities.cfg:811 ./Archaic_Era/utils/Archaic_abilities.cfg:852
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:780 ./Archaic_Era/utils/Archaic_abilities.cfg:821 ./Archaic_Era/utils/Archaic_abilities.cfg:862
 msgid "hide in shell"
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:790 ./Archaic_Era/utils/Archaic_abilities.cfg:831 ./Archaic_Era/utils/Archaic_abilities.cfg:872
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:800 ./Archaic_Era/utils/Archaic_abilities.cfg:841 ./Archaic_Era/utils/Archaic_abilities.cfg:882
 msgid "stop hiding"
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:899
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:909
 msgid "selfheal"
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:900
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:910
 msgid ""
 "selfheal:\n"
 "This unit heals {AMT} HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:917
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:927
 msgid "penumbra"
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:918
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:928
 msgid "female^penumbra"
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:919
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:929
 msgid ""
 "Penumbra:\n"
 "This unit obscures the surrounding area, making chaotic units fight better, and lawful units fight worse.\n"
@@ -2372,15 +2411,15 @@ msgid ""
 "Any units adjacent to this unit will fight as if it were dusk when it is day, and as if it were night when it is dusk."
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:932 ./Archaic_Era/utils/Archaic_abilities.cfg:934
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:942 ./Archaic_Era/utils/Archaic_abilities.cfg:944
 msgid "desert-stalk"
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:933 ./Archaic_Era/utils/Archaic_abilities.cfg:935
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:943 ./Archaic_Era/utils/Archaic_abilities.cfg:945
 msgid "female^desert-stalk"
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:936 ./Archaic_Era/utils/Archaic_abilities.cfg:940
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:946 ./Archaic_Era/utils/Archaic_abilities.cfg:950
 msgid ""
 "Desert-Stalk:\n"
 "This unit can hide in sand terrain, and remain undetected by its enemies.\n"
@@ -2388,7 +2427,7 @@ msgid ""
 "Enemy units cannot see this unit while it is on desert terrain, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
 msgstr ""
 
-#: ./Archaic_Era/utils/Archaic_abilities.cfg:957
+#: ./Archaic_Era/utils/Archaic_abilities.cfg:967
 msgid ""
 "Scattershot:\n"
 "This attack always has at least a 70% chance to hit."
