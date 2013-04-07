@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Archaic_Era-1.10\n"
+"Project-Id-Version: Archaic_Era-1.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-05 15:15-0400\n"
 "PO-Revision-Date: 2011-10-06 05:33+0900\n"
