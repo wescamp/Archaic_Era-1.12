@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Archaic_Era-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-05 15:15-0400\n"
+"POT-Creation-Date: 2013-05-27 19:26-0400\n"
 "PO-Revision-Date: 2011-10-06 05:33+0900\n"
 "Last-Translator: Kareha <kareha1929@gmail.com>\n"
 "Language-Team: <wesnoth-ja-translate@lists.sourceforge.jp>\n"
@@ -198,6 +198,7 @@ msgstr "石の武人"
 #. [unit_type]: id=Phantom Cloak, race=despair
 #. [unit_type]: id=Phantom Dullohan, race=despair
 #. [unit_type]: id=Phantom Horseman, race=despair
+#. [unit_type]: id=Phantom Knight, race=despair
 #. [unit_type]: id=Phantom Master, race=despair
 #. [unit_type]: id=Phantom Officer, race=despair
 #. [unit_type]: id=Phantom Rider, race=despair
@@ -230,6 +231,7 @@ msgstr "石の武人"
 #: Archaic_Era/units/despair/Phantom_Cloak.cfg:21
 #: Archaic_Era/units/despair/Phantom_Dullohan.cfg:20
 #: Archaic_Era/units/despair/Phantom_Horseman.cfg:19
+#: Archaic_Era/units/despair/Phantom_Knight.cfg:78
 #: Archaic_Era/units/despair/Phantom_Master.cfg:21
 #: Archaic_Era/units/despair/Phantom_Officer.cfg:78
 #: Archaic_Era/units/despair/Phantom_Rider.cfg:19
@@ -312,6 +314,7 @@ msgstr "石の刃"
 #. [attack]: type=cold
 #: Archaic_Era/units/despair/Phantom_Armor.cfg:125
 #: Archaic_Era/units/despair/Phantom_Cloak.cfg:83
+#: Archaic_Era/units/despair/Phantom_Knight.cfg:143
 #: Archaic_Era/units/despair/Phantom_Master.cfg:86
 #: Archaic_Era/units/despair/Phantom_Officer.cfg:145
 #: Archaic_Era/units/despair/Phantom_Shadow.cfg:86
@@ -394,6 +397,28 @@ msgstr "畏怖"
 msgid "Horseman"
 msgstr "騎兵"
 
+#. [unit_type]: id=Phantom Knight, race=despair
+#: Archaic_Era/units/despair/Phantom_Knight.cfg:4
+msgid "Lord Knight"
+msgstr ""
+
+#. [advancement]: id=amla_phantom1
+#: Archaic_Era/units/despair/Phantom_Knight.cfg:20
+#: Archaic_Era/units/despair/Phantom_Officer.cfg:20
+msgid "Max HP bonus +2, Melee Damage +1, Max Exp penalty +20%"
+msgstr "最大 HP ボーナス +2、格闘攻撃のダメージ +1、最大 XP +20%"
+
+#. [advancement]: id=amla_phantom2
+#: Archaic_Era/units/despair/Phantom_Knight.cfg:49
+#: Archaic_Era/units/despair/Phantom_Officer.cfg:49
+msgid "Max HP bonus +2, Ranged Strikes +1, Max Exp penalty +20%"
+msgstr "最大 HP ボーナス +2、投射攻撃の回数 +1、最大 XP +20%"
+
+#. [attack]: type=blade
+#: Archaic_Era/units/despair/Phantom_Knight.cfg:131
+msgid "sword"
+msgstr ""
+
 #. [unit_type]: id=Phantom Master, race=despair
 #: Archaic_Era/units/despair/Phantom_Master.cfg:5
 msgid "Master"
@@ -427,16 +452,6 @@ msgstr "睨み"
 #: Archaic_Era/units/despair/Phantom_Officer.cfg:4
 msgid "Officer"
 msgstr "士官"
-
-#. [advancement]: id=amla_phantom1
-#: Archaic_Era/units/despair/Phantom_Officer.cfg:20
-msgid "Max HP bonus +2, Melee Damage +1, Max Exp penalty +20%"
-msgstr "最大 HP ボーナス +2、格闘攻撃のダメージ +1、最大 XP +20%"
-
-#. [advancement]: id=amla_phantom2
-#: Archaic_Era/units/despair/Phantom_Officer.cfg:49
-msgid "Max HP bonus +2, Ranged Strikes +1, Max Exp penalty +20%"
-msgstr "最大 HP ボーナス +2、投射攻撃の回数 +1、最大 XP +20%"
 
 #. [unit_type]: id=Phantom Rider, race=despair
 #: Archaic_Era/units/despair/Phantom_Rider.cfg:4
@@ -2192,19 +2207,42 @@ msgstr ""
 msgid "staff base"
 msgstr "杖の柄"
 
-# ユニット名はおそらく間違いだと思う。これだと人間じゃなくてプライミーヴァルのユニットになってしまう。とりあえず、雰囲気重視。 -- Kareha
-#. [unit_type]: id=Primevalist Shield, race=primevalist_human
-#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:5
-msgid "Primeval Brightshield"
-msgstr "教団の御盾"
+#. [unit_type]: id=Primevalist Shield_High, race=primevalist_human
+#: Archaic_Era/units/primeval/Primevalist_Shield-High.cfg:5
+#, fuzzy
+msgid "Primevalist Sun-Shield"
+msgstr "教団の指導者"
 
-#. [unit_type]: id=Primevalist Shield, race=primevalist_human
-#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:107
+#. [unit_type]: id=Primevalist Shield_High, race=primevalist_human
+#: Archaic_Era/units/primeval/Primevalist_Shield-High.cfg:20
 msgid ""
 "These fighters play a supporting role, stoically absorbing damage so that "
 "their more hot tempered commrads survive long enough to accomplish their "
 "goals. Their armour disipates heat and cold and energy blasts, so they have "
 "higher than average resistance to fire, cold, and arcane damage."
+msgstr ""
+"Primeval Brightshield / この戦士たちは補助的な役割を受け持ち、黙々と敵からの"
+"攻撃を防ぎとめ、攻撃要員が目標を達成するまでの時間、その命を守ります。熱や冷"
+"気、エネルギー波を打ち消す力をもつその防具のおかげで、火、冷気、秘術のダメー"
+"ジに対して平均以上の抵抗力を有します。"
+
+# ユニット名はおそらく間違いだと思う。これだと人間じゃなくてプライミーヴァルのユニットになってしまう。とりあえず、雰囲気重視。 -- Kareha
+#. [unit_type]: id=Primevalist Shield, race=primevalist_human
+#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:5
+#, fuzzy
+msgid "Primevalist Brightshield"
+msgstr "教団の御盾"
+
+#. [unit_type]: id=Primevalist Shield, race=primevalist_human
+#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:109
+#, fuzzy
+msgid ""
+"These fighters play a supporting role, stoically absorbing damage so that "
+"their more hot tempered comrades survive long enough to accomplish their "
+"goals. Their armour is designed to disipate heat and cold and energy blasts, "
+"so they have higher than average resistance to fire, cold, and arcane "
+"damage.  They can form a very effective defensive line, but they are not "
+"expected to make a good strike force."
 msgstr ""
 "Primeval Brightshield / この戦士たちは補助的な役割を受け持ち、黙々と敵からの"
 "攻撃を防ぎとめ、攻撃要員が目標を達成するまでの時間、その命を守ります。熱や冷"

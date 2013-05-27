@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Archaic_Era-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-05 15:15-0400\n"
+"POT-Creation-Date: 2013-05-27 19:26-0400\n"
 "PO-Revision-Date: 2012-09-28 02:19+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -175,6 +175,7 @@ msgstr ""
 #. [unit_type]: id=Phantom Cloak, race=despair
 #. [unit_type]: id=Phantom Dullohan, race=despair
 #. [unit_type]: id=Phantom Horseman, race=despair
+#. [unit_type]: id=Phantom Knight, race=despair
 #. [unit_type]: id=Phantom Master, race=despair
 #. [unit_type]: id=Phantom Officer, race=despair
 #. [unit_type]: id=Phantom Rider, race=despair
@@ -207,6 +208,7 @@ msgstr ""
 #: Archaic_Era/units/despair/Phantom_Cloak.cfg:21
 #: Archaic_Era/units/despair/Phantom_Dullohan.cfg:20
 #: Archaic_Era/units/despair/Phantom_Horseman.cfg:19
+#: Archaic_Era/units/despair/Phantom_Knight.cfg:78
 #: Archaic_Era/units/despair/Phantom_Master.cfg:21
 #: Archaic_Era/units/despair/Phantom_Officer.cfg:78
 #: Archaic_Era/units/despair/Phantom_Rider.cfg:19
@@ -286,6 +288,7 @@ msgstr ""
 #. [attack]: type=cold
 #: Archaic_Era/units/despair/Phantom_Armor.cfg:125
 #: Archaic_Era/units/despair/Phantom_Cloak.cfg:83
+#: Archaic_Era/units/despair/Phantom_Knight.cfg:143
 #: Archaic_Era/units/despair/Phantom_Master.cfg:86
 #: Archaic_Era/units/despair/Phantom_Officer.cfg:145
 #: Archaic_Era/units/despair/Phantom_Shadow.cfg:86
@@ -362,6 +365,28 @@ msgstr ""
 msgid "Horseman"
 msgstr ""
 
+#. [unit_type]: id=Phantom Knight, race=despair
+#: Archaic_Era/units/despair/Phantom_Knight.cfg:4
+msgid "Lord Knight"
+msgstr ""
+
+#. [advancement]: id=amla_phantom1
+#: Archaic_Era/units/despair/Phantom_Knight.cfg:20
+#: Archaic_Era/units/despair/Phantom_Officer.cfg:20
+msgid "Max HP bonus +2, Melee Damage +1, Max Exp penalty +20%"
+msgstr ""
+
+#. [advancement]: id=amla_phantom2
+#: Archaic_Era/units/despair/Phantom_Knight.cfg:49
+#: Archaic_Era/units/despair/Phantom_Officer.cfg:49
+msgid "Max HP bonus +2, Ranged Strikes +1, Max Exp penalty +20%"
+msgstr ""
+
+#. [attack]: type=blade
+#: Archaic_Era/units/despair/Phantom_Knight.cfg:131
+msgid "sword"
+msgstr ""
+
 #. [unit_type]: id=Phantom Master, race=despair
 #: Archaic_Era/units/despair/Phantom_Master.cfg:5
 msgid "Master"
@@ -390,16 +415,6 @@ msgstr ""
 #. [unit_type]: id=Phantom Officer, race=despair
 #: Archaic_Era/units/despair/Phantom_Officer.cfg:4
 msgid "Officer"
-msgstr ""
-
-#. [advancement]: id=amla_phantom1
-#: Archaic_Era/units/despair/Phantom_Officer.cfg:20
-msgid "Max HP bonus +2, Melee Damage +1, Max Exp penalty +20%"
-msgstr ""
-
-#. [advancement]: id=amla_phantom2
-#: Archaic_Era/units/despair/Phantom_Officer.cfg:49
-msgid "Max HP bonus +2, Ranged Strikes +1, Max Exp penalty +20%"
 msgstr ""
 
 #. [unit_type]: id=Phantom Rider, race=despair
@@ -1895,18 +1910,34 @@ msgstr ""
 msgid "staff base"
 msgstr ""
 
-#. [unit_type]: id=Primevalist Shield, race=primevalist_human
-#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:5
-msgid "Primeval Brightshield"
+#. [unit_type]: id=Primevalist Shield_High, race=primevalist_human
+#: Archaic_Era/units/primeval/Primevalist_Shield-High.cfg:5
+msgid "Primevalist Sun-Shield"
 msgstr ""
 
-#. [unit_type]: id=Primevalist Shield, race=primevalist_human
-#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:107
+#. [unit_type]: id=Primevalist Shield_High, race=primevalist_human
+#: Archaic_Era/units/primeval/Primevalist_Shield-High.cfg:20
 msgid ""
 "These fighters play a supporting role, stoically absorbing damage so that "
 "their more hot tempered commrads survive long enough to accomplish their "
 "goals. Their armour disipates heat and cold and energy blasts, so they have "
 "higher than average resistance to fire, cold, and arcane damage."
+msgstr ""
+
+#. [unit_type]: id=Primevalist Shield, race=primevalist_human
+#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:5
+msgid "Primevalist Brightshield"
+msgstr ""
+
+#. [unit_type]: id=Primevalist Shield, race=primevalist_human
+#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:109
+msgid ""
+"These fighters play a supporting role, stoically absorbing damage so that "
+"their more hot tempered comrades survive long enough to accomplish their "
+"goals. Their armour is designed to disipate heat and cold and energy blasts, "
+"so they have higher than average resistance to fire, cold, and arcane "
+"damage.  They can form a very effective defensive line, but they are not "
+"expected to make a good strike force."
 msgstr ""
 
 #. [race]: id=primevalist_human
