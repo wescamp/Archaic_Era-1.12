@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Archaic_Era-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-27 19:26-0400\n"
+"POT-Creation-Date: 2013-06-03 23:51+0200\n"
 "PO-Revision-Date: 2012-02-15 17:14+0100\n"
 "Last-Translator: Kelemen Zoltan <kelemen_zoltan@freemail.hu>\n"
 "Language-Team: none\n"
@@ -2131,7 +2131,7 @@ msgstr ""
 "képesek okozni csupán csak a kezük mozgatásával..."
 
 #. [attack]: type=pierce
-#: Archaic_Era/units/primeval/Primevalist_Leader.cfg:45
+#: Archaic_Era/units/primeval/Primevalist_Leader.cfg:46
 msgid "soul-pierce"
 msgstr "lélekharang"
 
@@ -2808,7 +2808,7 @@ msgstr "Rendőr"
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:59
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:58
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:58
-#: Archaic_Era/utils/Archaic_abilities.cfg:966
+#: Archaic_Era/utils/Archaic_abilities.cfg:1026
 msgid "scattershot"
 msgstr "célzott támadás"
 
@@ -2953,8 +2953,39 @@ msgstr "Polgárnő"
 msgid "Ukian Commander"
 msgstr "Ukiai parancsnok"
 
+#. [advancement]: id=amla_commander_sword
+#: Archaic_Era/units/ukians/Ukian_Commander.cfg:23
+#, fuzzy
+msgid "Max HP bonus +2, Sword Damage +1, Max Exp penalty 30%"
+msgstr "Max ÉP +2, közelharci sebzés +1, Max TP +20%"
+
+#. [advancement]: id=amla_commander_crossbow
+#: Archaic_Era/units/ukians/Ukian_Commander.cfg:52
+#, fuzzy
+msgid "Max HP bonus +2, Crossbow Damage +1, Max Exp penalty 30%"
+msgstr "Max ÉP +2, közelharci sebzés +1, Max TP +20%"
+
+#. [advancement]: id=amla_commander_crossbow2
+#: Archaic_Era/units/ukians/Ukian_Commander.cfg:81
+#, fuzzy
+msgid "Max HP bonus +2, Crossbow Marksmanship, Max Exp penalty 40%"
+msgstr "Max ÉP +2, közelharci sebzés +1, Max TP +20%"
+
+#. [advancement]: id=amla_commander_shield
+#: Archaic_Era/units/ukians/Ukian_Commander.cfg:113
+#, fuzzy
+msgid ""
+"Max HP bonus +2, Shield Damage +2, Impact Resistance 5%, Max Exp penalty 40%"
+msgstr "Max ÉP +2, közelharci sebzés +1, Max TP +20%"
+
+#. [advancement]: id=amla_commander_armor
+#: Archaic_Era/units/ukians/Ukian_Commander.cfg:150
+#, fuzzy
+msgid "Max HP bonus +2, Blade & Pierce Resistance 5%, Max Exp penalty 40%"
+msgstr "Max ÉP +2, közelharci sebzés +1, Max TP +20%"
+
 #. [unit_type]: id=Ukian Commander, race=ukian
-#: Archaic_Era/units/ukians/Ukian_Commander.cfg:33
+#: Archaic_Era/units/ukians/Ukian_Commander.cfg:185
 msgid ""
 "Commanders are the military leaders of the Ukians. They get the few "
 "crossbows preserved from the old days, and heavier armor. They have the best "
@@ -2966,7 +2997,7 @@ msgstr ""
 "védelmet nyújtanak, s amellyel kemény ütést is tudnak mérni ellenségeikre."
 
 #. [attack]: type=impact
-#: Archaic_Era/units/ukians/Ukian_Commander.cfg:71
+#: Archaic_Era/units/ukians/Ukian_Commander.cfg:223
 #: Archaic_Era/units/ukians/Ukian_Subcom.cfg:70
 msgid "shield"
 msgstr "pajzs"
@@ -3609,23 +3640,25 @@ msgid ""
 "is selected."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:780
-#: Archaic_Era/utils/Archaic_abilities.cfg:821
-#: Archaic_Era/utils/Archaic_abilities.cfg:862
+#: Archaic_Era/utils/Archaic_abilities.cfg:799
+#: Archaic_Era/utils/Archaic_abilities.cfg:840
+#: Archaic_Era/utils/Archaic_abilities.cfg:881
+#: Archaic_Era/utils/Archaic_abilities.cfg:922
 msgid "hide in shell"
 msgstr "Begubózás"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:800
-#: Archaic_Era/utils/Archaic_abilities.cfg:841
-#: Archaic_Era/utils/Archaic_abilities.cfg:882
+#: Archaic_Era/utils/Archaic_abilities.cfg:819
+#: Archaic_Era/utils/Archaic_abilities.cfg:860
+#: Archaic_Era/utils/Archaic_abilities.cfg:901
+#: Archaic_Era/utils/Archaic_abilities.cfg:942
 msgid "stop hiding"
 msgstr "Kijövetel a burokból"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:909
+#: Archaic_Era/utils/Archaic_abilities.cfg:969
 msgid "selfheal"
 msgstr "öngyógyulás"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:910
+#: Archaic_Era/utils/Archaic_abilities.cfg:970
 msgid ""
 "selfheal:\n"
 "This unit heals {AMT} HP per turn.  If poisoned, it will remove the poison."
@@ -3634,15 +3667,15 @@ msgstr ""
 "Ez az egység {AMT} ÉP-t gyógyul körönként. Ha megmérgeződik, kigyógyul a "
 "mérgeződésből."
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:927
+#: Archaic_Era/utils/Archaic_abilities.cfg:987
 msgid "penumbra"
 msgstr "homályosítás"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:928
+#: Archaic_Era/utils/Archaic_abilities.cfg:988
 msgid "female^penumbra"
 msgstr "homályosítás"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:929
+#: Archaic_Era/utils/Archaic_abilities.cfg:989
 msgid ""
 "Penumbra:\n"
 "This unit obscures the surrounding area, making chaotic units fight better, "
@@ -3658,18 +3691,18 @@ msgstr ""
 "Bármelyik szomszédos mezőn álló egység úgy harcol nappal, mintha alkonyat "
 "lenne, s alkonyatkor és hajnalban úgy, mintha éjszaka lenne."
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:942
-#: Archaic_Era/utils/Archaic_abilities.cfg:944
+#: Archaic_Era/utils/Archaic_abilities.cfg:1002
+#: Archaic_Era/utils/Archaic_abilities.cfg:1004
 msgid "desert-stalk"
 msgstr "homokbaolvadás"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:943
-#: Archaic_Era/utils/Archaic_abilities.cfg:945
+#: Archaic_Era/utils/Archaic_abilities.cfg:1003
+#: Archaic_Era/utils/Archaic_abilities.cfg:1005
 msgid "female^desert-stalk"
 msgstr "homokbaolvadás"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:946
-#: Archaic_Era/utils/Archaic_abilities.cfg:950
+#: Archaic_Era/utils/Archaic_abilities.cfg:1006
+#: Archaic_Era/utils/Archaic_abilities.cfg:1010
 msgid ""
 "Desert-Stalk:\n"
 "This unit can hide in sand terrain, and remain undetected by its enemies.\n"
@@ -3686,7 +3719,7 @@ msgstr ""
 "mellé nem érnek. Amelyik ellenséges egység először észleli az egységet, "
 "elveszti esetlegesen még meglévő mozgáspontjait."
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:967
+#: Archaic_Era/utils/Archaic_abilities.cfg:1027
 msgid ""
 "Scattershot:\n"
 "This attack always has at least a 70% chance to hit."

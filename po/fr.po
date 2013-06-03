@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Archaic_Era-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-27 19:26-0400\n"
+"POT-Creation-Date: 2013-06-03 23:51+0200\n"
 "PO-Revision-Date: 2013-03-11 06:09+0100\n"
 "Last-Translator: Pyrophorus <l.sebilleauATfree.fr>\n"
 "Language-Team: French<wesnoth@ml.free.fr>\n"
@@ -2209,7 +2209,7 @@ msgstr ""
 "à l'ennemi d'un revers de main."
 
 #. [attack]: type=pierce
-#: Archaic_Era/units/primeval/Primevalist_Leader.cfg:45
+#: Archaic_Era/units/primeval/Primevalist_Leader.cfg:46
 msgid "soul-pierce"
 msgstr "perce-âme"
 
@@ -2910,7 +2910,7 @@ msgstr "Connétable"
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:59
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:58
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:58
-#: Archaic_Era/utils/Archaic_abilities.cfg:966
+#: Archaic_Era/utils/Archaic_abilities.cfg:1026
 msgid "scattershot"
 msgstr "tir dispersé"
 
@@ -3068,8 +3068,49 @@ msgstr "Civile ukienne"
 msgid "Ukian Commander"
 msgstr "Commandant Ukien"
 
+#. [advancement]: id=amla_commander_sword
+#: Archaic_Era/units/ukians/Ukian_Commander.cfg:23
+#, fuzzy
+msgid "Max HP bonus +2, Sword Damage +1, Max Exp penalty 30%"
+msgstr ""
+"Bonus de PV +2, dégâts au corps à corps +1, 20 % de pénalité d'expérience "
+"maximale"
+
+#. [advancement]: id=amla_commander_crossbow
+#: Archaic_Era/units/ukians/Ukian_Commander.cfg:52
+#, fuzzy
+msgid "Max HP bonus +2, Crossbow Damage +1, Max Exp penalty 30%"
+msgstr ""
+"Bonus de PV +2, dégâts au corps à corps +1, 20 % de pénalité d'expérience "
+"maximale"
+
+#. [advancement]: id=amla_commander_crossbow2
+#: Archaic_Era/units/ukians/Ukian_Commander.cfg:81
+#, fuzzy
+msgid "Max HP bonus +2, Crossbow Marksmanship, Max Exp penalty 40%"
+msgstr ""
+"Bonus de PV +2, dégâts au corps à corps +1, 20 % de pénalité d'expérience "
+"maximale"
+
+#. [advancement]: id=amla_commander_shield
+#: Archaic_Era/units/ukians/Ukian_Commander.cfg:113
+#, fuzzy
+msgid ""
+"Max HP bonus +2, Shield Damage +2, Impact Resistance 5%, Max Exp penalty 40%"
+msgstr ""
+"Bonus de PV +2, dégâts au corps à corps +1, 20 % de pénalité d'expérience "
+"maximale"
+
+#. [advancement]: id=amla_commander_armor
+#: Archaic_Era/units/ukians/Ukian_Commander.cfg:150
+#, fuzzy
+msgid "Max HP bonus +2, Blade & Pierce Resistance 5%, Max Exp penalty 40%"
+msgstr ""
+"Bonus de PV +2, dégâts au corps à corps +1, 20 % de pénalité d'expérience "
+"maximale"
+
 #. [unit_type]: id=Ukian Commander, race=ukian
-#: Archaic_Era/units/ukians/Ukian_Commander.cfg:33
+#: Archaic_Era/units/ukians/Ukian_Commander.cfg:185
 msgid ""
 "Commanders are the military leaders of the Ukians. They get the few "
 "crossbows preserved from the old days, and heavier armor. They have the best "
@@ -3082,7 +3123,7 @@ msgstr ""
 "grande protection et qui causent plus de dégâts à l'impact."
 
 #. [attack]: type=impact
-#: Archaic_Era/units/ukians/Ukian_Commander.cfg:71
+#: Archaic_Era/units/ukians/Ukian_Commander.cfg:223
 #: Archaic_Era/units/ukians/Ukian_Subcom.cfg:70
 msgid "shield"
 msgstr "bouclier"
@@ -3734,23 +3775,25 @@ msgid ""
 "is selected."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:780
-#: Archaic_Era/utils/Archaic_abilities.cfg:821
-#: Archaic_Era/utils/Archaic_abilities.cfg:862
+#: Archaic_Era/utils/Archaic_abilities.cfg:799
+#: Archaic_Era/utils/Archaic_abilities.cfg:840
+#: Archaic_Era/utils/Archaic_abilities.cfg:881
+#: Archaic_Era/utils/Archaic_abilities.cfg:922
 msgid "hide in shell"
 msgstr "se cacher dans sa carapace"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:800
-#: Archaic_Era/utils/Archaic_abilities.cfg:841
-#: Archaic_Era/utils/Archaic_abilities.cfg:882
+#: Archaic_Era/utils/Archaic_abilities.cfg:819
+#: Archaic_Era/utils/Archaic_abilities.cfg:860
+#: Archaic_Era/utils/Archaic_abilities.cfg:901
+#: Archaic_Era/utils/Archaic_abilities.cfg:942
 msgid "stop hiding"
 msgstr "sortir de sa carapace"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:909
+#: Archaic_Era/utils/Archaic_abilities.cfg:969
 msgid "selfheal"
 msgstr "régénérant"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:910
+#: Archaic_Era/utils/Archaic_abilities.cfg:970
 msgid ""
 "selfheal:\n"
 "This unit heals {AMT} HP per turn.  If poisoned, it will remove the poison."
@@ -3759,15 +3802,15 @@ msgstr ""
 "Cette unité regagne {AMT} points de vie par tours. Si elle est empoisonnée, "
 "elle guérie du poison."
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:927
+#: Archaic_Era/utils/Archaic_abilities.cfg:987
 msgid "penumbra"
 msgstr "pénombre"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:928
+#: Archaic_Era/utils/Archaic_abilities.cfg:988
 msgid "female^penumbra"
 msgstr "pénombre"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:929
+#: Archaic_Era/utils/Archaic_abilities.cfg:989
 msgid ""
 "Penumbra:\n"
 "This unit obscures the surrounding area, making chaotic units fight better, "
@@ -3783,18 +3826,18 @@ msgstr ""
 "Les unités adjacentes à cette unité combattront le jour comme si c'était le "
 "crépuscule, et comme s'il faisait nuit au crépuscule."
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:942
-#: Archaic_Era/utils/Archaic_abilities.cfg:944
+#: Archaic_Era/utils/Archaic_abilities.cfg:1002
+#: Archaic_Era/utils/Archaic_abilities.cfg:1004
 msgid "desert-stalk"
 msgstr "être du désert"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:943
-#: Archaic_Era/utils/Archaic_abilities.cfg:945
+#: Archaic_Era/utils/Archaic_abilities.cfg:1003
+#: Archaic_Era/utils/Archaic_abilities.cfg:1005
 msgid "female^desert-stalk"
 msgstr "être du désert"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:946
-#: Archaic_Era/utils/Archaic_abilities.cfg:950
+#: Archaic_Era/utils/Archaic_abilities.cfg:1006
+#: Archaic_Era/utils/Archaic_abilities.cfg:1010
 msgid ""
 "Desert-Stalk:\n"
 "This unit can hide in sand terrain, and remain undetected by its enemies.\n"
@@ -3812,7 +3855,7 @@ msgstr ""
 "ennemi qui découvre en premier cette unité perd immédiatement tous ses "
 "points de mouvement."
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:967
+#: Archaic_Era/utils/Archaic_abilities.cfg:1027
 msgid ""
 "Scattershot:\n"
 "This attack always has at least a 70% chance to hit."
