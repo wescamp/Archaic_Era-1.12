@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Archaic_Era-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-03 23:51+0200\n"
+"POT-Creation-Date: 2013-07-13 11:27-0400\n"
 "PO-Revision-Date: 2011-10-06 05:33+0900\n"
 "Last-Translator: Kareha <kareha1929@gmail.com>\n"
 "Language-Team: <wesnoth-ja-translate@lists.sourceforge.jp>\n"
@@ -256,13 +256,13 @@ msgstr "石の武人"
 #: Archaic_Era/units/phantom/Tomb_Shield.cfg:21
 #: Archaic_Era/units/phantom/Tomb_Stalker.cfg:21
 #: Archaic_Era/units/phantom_race.cfg:41
-#: Archaic_Era/units/south-seas/Demolitionist.cfg:21
+#: Archaic_Era/units/south-seas/Demolitionist.cfg:22
 #: Archaic_Era/units/south-seas/Divers.cfg:44
 #: Archaic_Era/units/south-seas/Marines.cfg:46
 #: Archaic_Era/units/south-seas/Scourge.cfg:22
-#: Archaic_Era/units/south-seas/Sky-Caller.cfg:22
-#: Archaic_Era/units/south-seas/Spitfire.cfg:22
-#: Archaic_Era/units/south-seas/Wolf.cfg:22
+#: Archaic_Era/units/south-seas/Sky-Caller.cfg:23
+#: Archaic_Era/units/south-seas/Spitfire.cfg:23
+#: Archaic_Era/units/south-seas/Wolf.cfg:23
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:20
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:19
 #: Archaic_Era/units/ukians/Royal_Soldier.cfg:20
@@ -278,41 +278,21 @@ msgstr "..."
 msgid "stone grip"
 msgstr "石の呪縛"
 
-#. [petrifies]: id=aa_petrifies
-#. [petrifies]: id=petrifies
-#: Archaic_Era/units/despair/Phantom_Armor.cfg:97
-#: Archaic_Era/units/despair/Phantom_Statue.cfg:97
-#: Archaic_Era/units/despair/Phantom_Stone.cfg:96
-msgid "petrifies"
-msgstr "石化"
-
-#. [petrifies]: id=petrifies
-#: Archaic_Era/units/despair/Phantom_Armor.cfg:98
-#: Archaic_Era/units/despair/Phantom_Stone.cfg:97
-#, fuzzy
-msgid ""
-"Petrify:\n"
-"This attack petrifies the target, turning it to stone. Units that have been "
-"petrified may not move or attack."
-msgstr ""
-"石化:\n"
-"\tこの攻撃を受けたユニットは石化します。石化すると移動も攻撃もできません。"
-
 #. [attack]: type=impact
-#: Archaic_Era/units/despair/Phantom_Armor.cfg:106
-#: Archaic_Era/units/despair/Phantom_Statue.cfg:106
-#: Archaic_Era/units/despair/Phantom_Stone.cfg:105
+#: Archaic_Era/units/despair/Phantom_Armor.cfg:102
+#: Archaic_Era/units/despair/Phantom_Statue.cfg:101
+#: Archaic_Era/units/despair/Phantom_Stone.cfg:101
 msgid "stone fist"
 msgstr "石の拳"
 
 #. [attack]: type=blade
-#: Archaic_Era/units/despair/Phantom_Armor.cfg:116
-#: Archaic_Era/units/despair/Phantom_Stone.cfg:115
+#: Archaic_Era/units/despair/Phantom_Armor.cfg:112
+#: Archaic_Era/units/despair/Phantom_Stone.cfg:111
 msgid "stone blade"
 msgstr "石の刃"
 
 #. [attack]: type=cold
-#: Archaic_Era/units/despair/Phantom_Armor.cfg:125
+#: Archaic_Era/units/despair/Phantom_Armor.cfg:121
 #: Archaic_Era/units/despair/Phantom_Cloak.cfg:83
 #: Archaic_Era/units/despair/Phantom_Knight.cfg:143
 #: Archaic_Era/units/despair/Phantom_Master.cfg:86
@@ -320,8 +300,8 @@ msgstr "石の刃"
 #: Archaic_Era/units/despair/Phantom_Shadow.cfg:86
 #: Archaic_Era/units/despair/Phantom_Soldier.cfg:84
 #: Archaic_Era/units/despair/Phantom_Spear.cfg:85
-#: Archaic_Era/units/despair/Phantom_Statue.cfg:116
-#: Archaic_Era/units/despair/Phantom_Stone.cfg:124
+#: Archaic_Era/units/despair/Phantom_Statue.cfg:111
+#: Archaic_Era/units/despair/Phantom_Stone.cfg:120
 msgid "hatred"
 msgstr "憎しみ"
 
@@ -471,7 +451,7 @@ msgstr "死神"
 # Slayer (Phantom) と Shoreman (South-Sea) が共有するので強引な翻訳をしない -- Kareha
 #. [attack]: type=pierce
 #: Archaic_Era/units/despair/Phantom_Slayer.cfg:85
-#: Archaic_Era/units/south-seas/Shoreman.cfg:30
+#: Archaic_Era/units/south-seas/Shoreman.cfg:32
 msgid "spike"
 msgstr "鋲釘"
 
@@ -538,18 +518,6 @@ msgstr ""
 "で捕らえたユニットがいる場合、ターン開始時に、捕らえているユニットそれぞれか"
 "らダメージを受けます。捕らえられているユニットは、彫像が死ぬか、彫像の右ク"
 "リックメニューから解放が選択されれば、脱出することができます。"
-
-#. [petrifies]: id=aa_petrifies
-#: Archaic_Era/units/despair/Phantom_Statue.cfg:98
-#, fuzzy
-msgid ""
-"Petrify:\n"
-"This attack petrifies the target, turning it to stone. Units that have been "
-"petrified may not move or attack until the curse wears off."
-msgstr ""
-"石化:\n"
-"\tこの攻撃は、対象を石化することで動けなくします。石化したユニットは呪いが解"
-"けるまで移動も攻撃もできません。"
 
 #. [unit_type]: id=Phantom Stone, race=despair
 #: Archaic_Era/units/despair/Phantom_Stone.cfg:5
@@ -677,9 +645,9 @@ msgstr "アダマンタイン"
 #. [unit_type]: id=Snapper, race=khthon
 #. [unit_type]: id=Snapper_Hiding, race=khthon
 #: Archaic_Era/units/khthon/Adamantine.cfg:20
-#: Archaic_Era/units/khthon/Rock.cfg:19 Archaic_Era/units/khthon/Rock.cfg:152
+#: Archaic_Era/units/khthon/Rock.cfg:19 Archaic_Era/units/khthon/Rock.cfg:155
 #: Archaic_Era/units/khthon/Snapper.cfg:19
-#: Archaic_Era/units/khthon/Snapper.cfg:152
+#: Archaic_Era/units/khthon/Snapper.cfg:155
 msgid ""
 "The Bone Snapper can retreat into its shell to raise defenses (right-click "
 "option), but then it cannot move or attack."
@@ -688,12 +656,12 @@ msgstr ""
 "できます（右クリックから選択）が、その状態では移動も攻撃もできません。"
 
 #. [unit_type]: id=Adamantine_Hiding, race=khthon
-#: Archaic_Era/units/khthon/Adamantine.cfg:138
+#: Archaic_Era/units/khthon/Adamantine.cfg:139
 msgid "Adamantine (Hiding)"
 msgstr "アダマンタイン (閉じこもり)"
 
 #. [unit_type]: id=Adamantine_Hiding, race=khthon
-#: Archaic_Era/units/khthon/Adamantine.cfg:156
+#: Archaic_Era/units/khthon/Adamantine.cfg:159
 msgid ""
 "The Adamantine can retreat into its shell to raise defenses (right-click "
 "option), but then it cannot move or attack."
@@ -967,7 +935,7 @@ msgid "Rock Back"
 msgstr "ロックバック"
 
 #. [unit_type]: id=Rockback_Hiding, race=khthon
-#: Archaic_Era/units/khthon/Rock.cfg:136
+#: Archaic_Era/units/khthon/Rock.cfg:137
 msgid "Rock Back (Hiding)"
 msgstr "ロックバック (閉じこもり)"
 
@@ -992,7 +960,7 @@ msgid "Bone Snapper"
 msgstr "ボーンスナッパー"
 
 #. [unit_type]: id=Snapper_Hiding, race=khthon
-#: Archaic_Era/units/khthon/Snapper.cfg:136
+#: Archaic_Era/units/khthon/Snapper.cfg:137
 msgid "Bone Snapper (Hiding)"
 msgstr "ボーンスナッパー (閉じこもり)"
 
@@ -1024,7 +992,7 @@ msgstr "亀"
 #. [unit_type]: id=Terrapin, race=khthon
 #. [unit_type]: id=Terrapin_Hiding, race=khthon
 #: Archaic_Era/units/khthon/Terrapin.cfg:20
-#: Archaic_Era/units/khthon/Terrapin.cfg:115
+#: Archaic_Era/units/khthon/Terrapin.cfg:119
 msgid ""
 "The terrapin can retreat into its shell to raise defenses (right-click "
 "option), but then it cannot move or attack."
@@ -1033,7 +1001,7 @@ msgstr ""
 "クから選択）が、その状態では移動も攻撃もできません。"
 
 #. [unit_type]: id=Terrapin_Hiding, race=khthon
-#: Archaic_Era/units/khthon/Terrapin.cfg:99
+#: Archaic_Era/units/khthon/Terrapin.cfg:102
 msgid "Terrapin (Hiding)"
 msgstr "亀 (閉じこもり)"
 
@@ -1069,22 +1037,22 @@ msgstr ""
 "た。最近のように攻撃的になるのは少々奇妙なことです。"
 
 #. [race]: id=khthon
-#: Archaic_Era/units/khthon_race.cfg:5
+#: Archaic_Era/units/khthon_race.cfg:7
 msgid "race^Khthon"
 msgstr "クトーン"
 
 #. [race]: id=khthon
-#: Archaic_Era/units/khthon_race.cfg:6
+#: Archaic_Era/units/khthon_race.cfg:8
 msgid "race+female^Khthon"
 msgstr "クトーン"
 
 #. [race]: id=khthon
-#: Archaic_Era/units/khthon_race.cfg:7
+#: Archaic_Era/units/khthon_race.cfg:9
 msgid "race+plural^Khthon"
 msgstr "クトーン"
 
 #. [race]: id=khthon
-#: Archaic_Era/units/khthon_race.cfg:9
+#: Archaic_Era/units/khthon_race.cfg:11
 msgid ""
 "These ancient enemies of the Primeval Forces are difficult to comprehend. "
 "They are best described as spirits that animate the bodies of victims, and "
@@ -1098,23 +1066,34 @@ msgstr ""
 "イミーヴァルはともかく、この大陸に住まう現代の種族は（命なきものどもを除い"
 "て）抵抗する術をもちません。"
 
+#. [race]: id=khthon
+#: Archaic_Era/units/khthon_race.cfg:13 Archaic_Era/units/khthon_race.cfg:14
+msgid ""
+"Acarreah,Aehnha,Aggaragatala,Ammona,Atterah,Azzemon,Bahbarshah,Banshee,"
+"Beelzeh,Borrommon,Burreon,Charanah,Cleemmon,Condurrah,Dammaron,Desseon,"
+"Doombhereh,Echorram,Eunroomon,Grenduram,Gorghallon,Kireon,Lommnusson,"
+"Marammon,Mororreon,Nemmennon,Nyreahan,Orophoron,Perradon,Primmaron,Rassadom,"
+"Rohannah,Rysseran,Styrreamon,Syrryrah,Teleskyreom,Typhereomon,Uedemmon,"
+"Urannamon"
+msgstr ""
+
 #. [race]: id=lesser_khthon
-#: Archaic_Era/units/khthon_race.cfg:15
+#: Archaic_Era/units/khthon_race.cfg:21
 msgid "race^Lesser Khthon"
 msgstr "レッサー・クトーン"
 
 #. [race]: id=lesser_khthon
-#: Archaic_Era/units/khthon_race.cfg:16
+#: Archaic_Era/units/khthon_race.cfg:22
 msgid "race+female^Lesser Khthon"
 msgstr "レッサー・クトーン"
 
 #. [race]: id=lesser_khthon
-#: Archaic_Era/units/khthon_race.cfg:17
+#: Archaic_Era/units/khthon_race.cfg:23
 msgid "race+plural^Lesser Khthon"
 msgstr "レッサー・クトーン"
 
 #. [race]: id=lesser_khthon
-#: Archaic_Era/units/khthon_race.cfg:20
+#: Archaic_Era/units/khthon_race.cfg:26
 msgid ""
 "Lesser Khthon are the immature spawn of Khthon. They cannot spread more of "
 "their kind yet, but they can independently control the mind of their victims."
@@ -1123,22 +1102,22 @@ msgstr ""
 "まだできませんが、憑代の精神を支配することはできます。"
 
 #. [race]: id=thrall_khthon
-#: Archaic_Era/units/khthon_race.cfg:25
+#: Archaic_Era/units/khthon_race.cfg:31
 msgid "race^Thrall"
 msgstr "クトーンの下僕"
 
 #. [race]: id=thrall_khthon
-#: Archaic_Era/units/khthon_race.cfg:26
+#: Archaic_Era/units/khthon_race.cfg:32
 msgid "race+female^Thrall"
 msgstr "クトーンの下僕"
 
 #. [race]: id=thrall_khthon
-#: Archaic_Era/units/khthon_race.cfg:27
+#: Archaic_Era/units/khthon_race.cfg:33
 msgid "race+plural^Thrall"
 msgstr "クトーンの下僕"
 
 #. [race]: id=thrall_khthon
-#: Archaic_Era/units/khthon_race.cfg:30
+#: Archaic_Era/units/khthon_race.cfg:36
 msgid ""
 "Khthon Thralls are mindless tools, they have some motor memory and equipment "
 "from their former existence, but they have no memories and no possiblity of "
@@ -1817,9 +1796,8 @@ msgstr "継戦"
 #. [berserk]: id=aggression
 #: Archaic_Era/units/primeval/Primeval_Driver.cfg:51
 #: Archaic_Era/units/primeval/Primeval_Giant.cfg:42
-msgid ""
-"Aggression:\n"
-"This attack presses the engagement twice as long as usual."
+#, fuzzy
+msgid "This attack presses the engagement twice as long as usual."
 msgstr ""
 "継戦:\n"
 "この攻撃は、交戦時間を通常の2倍に引き延ばします。"
@@ -2137,7 +2115,7 @@ msgstr ""
 #: Archaic_Era/units/primeval/Primevalist_Follower.cfg:40
 #: Archaic_Era/units/primeval/Primevalist_Monk.cfg:41
 #: Archaic_Era/units/primeval/Primevalist_Prior.cfg:48
-#: Archaic_Era/units/south-seas/Caster.cfg:38
+#: Archaic_Era/units/south-seas/Caster.cfg:40
 msgid "chill"
 msgstr "凍気"
 
@@ -2416,7 +2394,7 @@ msgid "Able-Seaman"
 msgstr "熟練船員"
 
 #. [unit_type]: id=SouthSeas AbleSeaman, race=south-seas_human
-#: Archaic_Era/units/south-seas/Able-Seaman.cfg:21
+#: Archaic_Era/units/south-seas/Able-Seaman.cfg:22
 msgid ""
 "Though not Captains, Able-Seaman are higher ranking than the bulk of the "
 "sailors and have more access to resources.  In these times of conflict, they "
@@ -2434,7 +2412,7 @@ msgid "Arsonist"
 msgstr "放火屋"
 
 #. [unit_type]: id=SouthSeas Arsonist, race=south-seas_human
-#: Archaic_Era/units/south-seas/Arsonist.cfg:21
+#: Archaic_Era/units/south-seas/Arsonist.cfg:22
 msgid ""
 "Ships are a very important part of life in the South Seas, so if one wanted "
 "to ruin a successful member of society, they would destroy their ships.  The "
@@ -2447,7 +2425,7 @@ msgstr ""
 "ます。"
 
 #. [attack]: type=fire
-#: Archaic_Era/units/south-seas/Arsonist.cfg:45
+#: Archaic_Era/units/south-seas/Arsonist.cfg:46
 msgid "spark"
 msgstr "火花"
 
@@ -2457,7 +2435,7 @@ msgid "female^Lore-Caster"
 msgstr "語り部"
 
 #. [unit_type]: id=SouthSeas Caster, race=south-seas_human
-#: Archaic_Era/units/south-seas/Caster.cfg:21
+#: Archaic_Era/units/south-seas/Caster.cfg:22
 msgid ""
 "Lore-Casters study the old teachings and lore from days long ago.  That may "
 "seem academic and irrelevant to life at sea, however South-Seas ships that "
@@ -2475,7 +2453,7 @@ msgid "Deck-Master"
 msgstr "甲板長"
 
 #. [unit_type]: id=SouthSeas DeckMaster, race=south-seas_human
-#: Archaic_Era/units/south-seas/Deck-Master.cfg:22
+#: Archaic_Era/units/south-seas/Deck-Master.cfg:23
 msgid ""
 "Because they are not wealthy, Deck-Masters will never own a ship of any "
 "size, but they are trusted on the larger vessals to keep the rest of the men "
@@ -2488,7 +2466,7 @@ msgstr ""
 "使って敵の武器を絡めとることができます。"
 
 #. [attack]: type=pierce
-#: Archaic_Era/units/south-seas/Deck-Master.cfg:44
+#: Archaic_Era/units/south-seas/Deck-Master.cfg:45
 msgid "hook"
 msgstr "フック"
 
@@ -2498,8 +2476,8 @@ msgid "Demolitionist"
 msgstr "発破屋"
 
 #. [attack]: type=fire
-#: Archaic_Era/units/south-seas/Demolitionist.cfg:46
-#: Archaic_Era/units/south-seas/Spitfire.cfg:47
+#: Archaic_Era/units/south-seas/Demolitionist.cfg:47
+#: Archaic_Era/units/south-seas/Spitfire.cfg:48
 msgid "flame"
 msgstr "火炎"
 
@@ -2511,7 +2489,7 @@ msgstr "潜水士"
 #. [attack]: type=pierce
 #: Archaic_Era/units/south-seas/Divers.cfg:60
 #: Archaic_Era/units/south-seas/Marines.cfg:62
-#: Archaic_Era/units/south-seas/Wrecker.cfg:55
+#: Archaic_Era/units/south-seas/Wrecker.cfg:57
 msgid "harpoon"
 msgstr "銛"
 
@@ -2537,7 +2515,7 @@ msgid "Sea Rover"
 msgstr "海賊"
 
 #. [unit_type]: id=SouthSeas Rover, race=south-seas_human
-#: Archaic_Era/units/south-seas/Rover.cfg:21
+#: Archaic_Era/units/south-seas/Rover.cfg:22
 msgid ""
 "Some of the southern city-states earn their wealth through plunder and "
 "exploitation. The roving pirates are not the strongest fighters, but they "
@@ -2548,8 +2526,8 @@ msgstr ""
 "んどいません。"
 
 #. [attack]: type=pierce
-#: Archaic_Era/units/south-seas/Rover.cfg:38
-#: Archaic_Era/units/south-seas/Wolf.cfg:41
+#: Archaic_Era/units/south-seas/Rover.cfg:39
+#: Archaic_Era/units/south-seas/Wolf.cfg:42
 msgid "dart"
 msgstr "投げ矢"
 
@@ -2559,7 +2537,7 @@ msgid "Salvager"
 msgstr "破船漁り"
 
 #. [unit_type]: id=SouthSeas Salvager, race=south-seas_human
-#: Archaic_Era/units/south-seas/Salvager.cfg:21
+#: Archaic_Era/units/south-seas/Salvager.cfg:23
 msgid ""
 "The Salvagers are less concerned with the loading and unloading of ships, "
 "and focus their efforts on the more lucrative job of salvage.  They break "
@@ -2572,9 +2550,9 @@ msgstr ""
 "突き刺すのにも、おなじくらいに役に立つものです。"
 
 #. [attack]: type=impact
-#: Archaic_Era/units/south-seas/Salvager.cfg:41
-#: Archaic_Era/units/south-seas/Shoreman.cfg:39
-#: Archaic_Era/units/south-seas/Wrecker.cfg:43
+#: Archaic_Era/units/south-seas/Salvager.cfg:43
+#: Archaic_Era/units/south-seas/Shoreman.cfg:41
+#: Archaic_Era/units/south-seas/Wrecker.cfg:45
 msgid "rope"
 msgstr "ロープ"
 
@@ -2584,7 +2562,7 @@ msgstr "ロープ"
 # ###################################################
 # （日本語独自）武器名が小文字に統一された場合に備えて
 #. [attack]: type=pierce
-#: Archaic_Era/units/south-seas/Salvager.cfg:53
+#: Archaic_Era/units/south-seas/Salvager.cfg:55
 msgid "barb"
 msgstr "鉤縄"
 
@@ -2595,14 +2573,14 @@ msgid "female^Sea-Scourge"
 msgstr "海咎女"
 
 #. [attack]: type=cold
-#: Archaic_Era/units/south-seas/Scourge.cfg:42
-#: Archaic_Era/units/south-seas/Seahag.cfg:41
+#: Archaic_Era/units/south-seas/Scourge.cfg:43
+#: Archaic_Era/units/south-seas/Seahag.cfg:42
 msgid "fear"
 msgstr "恐怖"
 
 # （日本語独自）武器名が小文字に統一された場合に備えて
 #. [attack]: type=arcane
-#: Archaic_Era/units/south-seas/Scourge.cfg:55
+#: Archaic_Era/units/south-seas/Scourge.cfg:56
 msgid "arcanum"
 msgstr "妙法"
 
@@ -2630,7 +2608,7 @@ msgid "Seaman"
 msgstr "船員"
 
 #. [unit_type]: id=SouthSeas Seaman, race=south-seas_human
-#: Archaic_Era/units/south-seas/Seaman.cfg:22
+#: Archaic_Era/units/south-seas/Seaman.cfg:23
 msgid ""
 "The South-Seas Seamen are the core workers of the seafaring nation.  While "
 "they don't have any particular combat skills, the life of a sailor is rough, "
@@ -2641,7 +2619,7 @@ msgstr ""
 "は、戦士としても立派に通用します。"
 
 #. [attack]: type=impact
-#: Archaic_Era/units/south-seas/Seaman.cfg:29
+#: Archaic_Era/units/south-seas/Seaman.cfg:30
 msgid "oar"
 msgstr "櫂"
 
@@ -2651,7 +2629,7 @@ msgid "Shoreman"
 msgstr "港湾人足"
 
 #. [unit_type]: id=SouthSeas Shoreman, race=south-seas_human
-#: Archaic_Era/units/south-seas/Shoreman.cfg:23
+#: Archaic_Era/units/south-seas/Shoreman.cfg:25
 #, fuzzy
 msgid ""
 "The Shoremen are responsible for loading ships and breaking down retired "
@@ -2673,8 +2651,8 @@ msgid "female^Sky-Caller"
 msgstr "空紡ぎ"
 
 #. [attack]: type=blade
-#: Archaic_Era/units/south-seas/Sky-Caller.cfg:44
-#: Archaic_Era/units/south-seas/Zephyrist.cfg:42
+#: Archaic_Era/units/south-seas/Sky-Caller.cfg:46
+#: Archaic_Era/units/south-seas/Zephyrist.cfg:44
 msgid "wind"
 msgstr "風"
 
@@ -2689,7 +2667,7 @@ msgid "Swimmer"
 msgstr "泳ぎ手"
 
 #. [unit_type]: id=SouthSeas Swimmer, race=south-seas_human
-#: Archaic_Era/units/south-seas/Swimmers.cfg:37
+#: Archaic_Era/units/south-seas/Swimmers.cfg:38
 msgid ""
 "Swimmers are sometimes employed on ships, but they are mostly located near "
 "the villages, where they hunt fish for food, gather pearls for trade, and "
@@ -2700,7 +2678,7 @@ msgstr ""
 "をしたりしています。"
 
 #. [female]
-#: Archaic_Era/units/south-seas/Swimmers.cfg:86
+#: Archaic_Era/units/south-seas/Swimmers.cfg:87
 msgid "female^Swimmer"
 msgstr "泳ぎ手"
 
@@ -2716,7 +2694,7 @@ msgid "Wrecker"
 msgstr "破船荒らし"
 
 #. [unit_type]: id=SouthSeas Wrecker, race=south-seas_human
-#: Archaic_Era/units/south-seas/Wrecker.cfg:22
+#: Archaic_Era/units/south-seas/Wrecker.cfg:24
 msgid ""
 "The Wreckers are the most experienced of the salvagers.  They usually "
 "operate alone, which maximizes both the profit and danger, so they carry "
@@ -2734,7 +2712,7 @@ msgid "female^Wind-Caller"
 msgstr "風紡ぎ"
 
 #. [unit_type]: id=SouthSeas Zephyrist, race=south-seas_human
-#: Archaic_Era/units/south-seas/Zephyrist.cfg:21
+#: Archaic_Era/units/south-seas/Zephyrist.cfg:22
 msgid ""
 "The Wind-Callers study the lore of the brighter gods. They pray for "
 "favourable winds and a minimum of strife. They are successful at directing "
@@ -2853,7 +2831,7 @@ msgstr "城守"
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:59
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:58
 #: Archaic_Era/units/ukians/Royal_Vassal.cfg:58
-#: Archaic_Era/utils/Archaic_abilities.cfg:1026
+#: Archaic_Era/utils/Archaic_abilities.cfg:1041
 msgid "scattershot"
 msgstr "乱射"
 
@@ -2896,7 +2874,7 @@ msgid "Northern Ranger"
 msgstr "北のレンジャー"
 
 #. [unit_type]: id=Northern Ranger, race=human
-#: Archaic_Era/units/ukians/Royal_Ranger.cfg:21
+#: Archaic_Era/units/ukians/Royal_Ranger.cfg:22
 #, fuzzy
 msgid ""
 "The cold of the far north robs the fingers of their dexterity and makes a "
@@ -3079,7 +3057,6 @@ msgstr "犬使い"
 #: Archaic_Era/units/ukians/Ukian_Commando.cfg:33
 #: Archaic_Era/units/ukians/Ukian_Courrier.cfg:34
 #: Archaic_Era/units/ukians/Ukian_Runner.cfg:42
-#: Archaic_Era/utils/Archaic_abilities.cfg:83
 msgid ""
 "Dog Trainer:\n"
 "This unit can lead Ukian Dogs that are next to it, making them fight better."
@@ -3517,20 +3494,29 @@ msgstr ""
 msgid "female^dog trainer"
 msgstr "犬使い"
 
+#. [leadership]: id=leadership
+#: Archaic_Era/utils/Archaic_abilities.cfg:83
+#, fuzzy
+msgid ""
+"This unit can lead Ukian Dogs that are next to it, making them fight better."
+msgstr ""
+"犬使い:\n"
+"このユニットは、隣接するウキア犬を使役し、上手く戦えるように指示します。"
+
 #. [heals]: id=aa_trinkets
-#: Archaic_Era/utils/Archaic_abilities.cfg:101
+#: Archaic_Era/utils/Archaic_abilities.cfg:100
 msgid "anti-poison"
 msgstr "毒無効"
 
 #. [heals]: id=aa_trinkets
-#: Archaic_Era/utils/Archaic_abilities.cfg:102
+#: Archaic_Era/utils/Archaic_abilities.cfg:101
 msgid "female^anti-poison"
 msgstr "毒無効"
 
 #. [heals]: id=aa_trinkets
-#: Archaic_Era/utils/Archaic_abilities.cfg:103
+#: Archaic_Era/utils/Archaic_abilities.cfg:102
+#, fuzzy
 msgid ""
-"Anti-poison:\n"
 "Allows the unit to avoid the effects of poison, but the poisoned unit cannot "
 "be cured of its poison by this ability, and must seek the care of a village "
 "or a unit that can cure."
@@ -3541,20 +3527,20 @@ msgstr ""
 "ばなりません。"
 
 #. [heals]: id=aa_healing
-#: Archaic_Era/utils/Archaic_abilities.cfg:119
+#: Archaic_Era/utils/Archaic_abilities.cfg:117
 msgid "heals +"
 msgstr "回復 +"
 
 #. [heals]: id=aa_healing
-#: Archaic_Era/utils/Archaic_abilities.cfg:120
+#: Archaic_Era/utils/Archaic_abilities.cfg:118
 msgid "female^heals +"
 msgstr "回復 +"
 
 # 参照を含むため、WML と gettext の仕様上翻訳不可な文字列 -- Kareha
 #. [heals]: id=aa_healing
-#: Archaic_Era/utils/Archaic_abilities.cfg:121
+#: Archaic_Era/utils/Archaic_abilities.cfg:119
+#, fuzzy
 msgid ""
-"Heals +{AMT}:\n"
 "Allows the unit to heal adjacent allied units at the beginning of our turn.\n"
 "\n"
 "A unit cared for by this healer may heal up to {AMT} HP per turn, or stop "
@@ -3571,19 +3557,19 @@ msgstr ""
 "ニットを捜して下さい。"
 
 #. [regenerate]: id=aa_immortal
-#: Archaic_Era/utils/Archaic_abilities.cfg:140
+#: Archaic_Era/utils/Archaic_abilities.cfg:137
 msgid "immortal"
 msgstr "不滅"
 
 #. [regenerate]: id=aa_immortal
-#: Archaic_Era/utils/Archaic_abilities.cfg:141
+#: Archaic_Era/utils/Archaic_abilities.cfg:138
 msgid "female^immortal"
 msgstr "不滅"
 
 #. [regenerate]: id=aa_immortal
-#: Archaic_Era/utils/Archaic_abilities.cfg:142
+#: Archaic_Era/utils/Archaic_abilities.cfg:139
+#, fuzzy
 msgid ""
-"immortal:\n"
 "This unit heals 99 HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 "不滅:\n"
@@ -3591,39 +3577,59 @@ msgstr ""
 "合、毒を消します。"
 
 #. [dummy]: id=aa_intangible
-#: Archaic_Era/utils/Archaic_abilities.cfg:152
+#: Archaic_Era/utils/Archaic_abilities.cfg:148
 msgid "intangible"
 msgstr "霊体"
 
 #. [dummy]: id=aa_intangible
-#: Archaic_Era/utils/Archaic_abilities.cfg:153
+#: Archaic_Era/utils/Archaic_abilities.cfg:149
 msgid "female^intangible"
 msgstr "霊体"
 
 #. [dummy]: id=aa_intangible
-#: Archaic_Era/utils/Archaic_abilities.cfg:154
+#: Archaic_Era/utils/Archaic_abilities.cfg:150
+#, fuzzy
 msgid ""
-"Intangible:\n"
 "This unit uses only one movement point per attack, rather than all of its "
 "movement points like most other units."
 msgstr ""
 "霊体:\n"
 "このユニットは、移動力を 1 消費するだけで攻撃することができます。"
 
+#. [hides]: id=aa_aqualung
+#: Archaic_Era/utils/Archaic_abilities.cfg:157
+msgid "aqualung"
+msgstr ""
+
+# 「うみしこめ」 -- Kareha
+#. [hides]: id=aa_aqualung
+#: Archaic_Era/utils/Archaic_abilities.cfg:158
+#, fuzzy
+msgid "female^aqualung"
+msgstr "海醜女"
+
+#. [hides]: id=aa_aqualung
+#: Archaic_Era/utils/Archaic_abilities.cfg:159
+msgid ""
+"This unit can move underwater, unobserved by opponents, in either deep water "
+"or swamps.  While they can move under shallow water too, there is no way to "
+"hide, so they are visible to opponents."
+msgstr ""
+
 #. [resistance]: id=aa_stone
-#: Archaic_Era/utils/Archaic_abilities.cfg:163
+#: Archaic_Era/utils/Archaic_abilities.cfg:173
 msgid "stone"
 msgstr "石"
 
 #. [resistance]: id=aa_stone
-#: Archaic_Era/utils/Archaic_abilities.cfg:164
+#: Archaic_Era/utils/Archaic_abilities.cfg:174
 msgid "female^stone"
 msgstr "石"
 
 #. [resistance]: id=aa_stone
-#: Archaic_Era/utils/Archaic_abilities.cfg:165
+#: Archaic_Era/utils/Archaic_abilities.cfg:175
+#, fuzzy
 msgid ""
-"Stone:\n"
 "This unit is stone in the daylight, if not next to an ally or in a village, "
 "but is always mobile at night."
 msgstr ""
@@ -3631,45 +3637,43 @@ msgstr ""
 "このユニットは、日中、石化します。ただし、友軍ユニットが隣接している場合、ま"
 "たは村の上にいる場合は日中でも動けますし、夜はいつでも動くことが可能です。"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:468
+#: Archaic_Era/utils/Archaic_abilities.cfg:485
 msgid "release stoned victims"
 msgstr "石化の犠牲者を解放する"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:504
-#: Archaic_Era/utils/Archaic_abilities.cfg:549
+#: Archaic_Era/utils/Archaic_abilities.cfg:521
+#: Archaic_Era/utils/Archaic_abilities.cfg:567
 msgid "Free"
 msgstr "解放"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:560
+#: Archaic_Era/utils/Archaic_abilities.cfg:578
 #, fuzzy
 msgid "fog"
 msgstr "犬"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:561
+#: Archaic_Era/utils/Archaic_abilities.cfg:579
 msgid ""
-"Fog:\n"
 "The opponent is enveloped in an opaque fog and cannot see very well, so "
 "their chance to hit is reduced."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:572
+#: Archaic_Era/utils/Archaic_abilities.cfg:589
 #, fuzzy
 msgid "wind-up"
 msgstr "風"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:573
+#: Archaic_Era/utils/Archaic_abilities.cfg:590
 msgid ""
-"Wind-up:\n"
 "The unit has a greater chance of landing a successful blow if the enemy is "
 "distracted.  Similar to Thief's backstab, but affects chance to hit instead "
 "of damage."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:582
+#: Archaic_Era/utils/Archaic_abilities.cfg:598
 msgid "slows"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:583
+#: Archaic_Era/utils/Archaic_abilities.cfg:599
 msgid ""
 "This attack slows the target until it ends a turn. Slow halves the damage "
 "caused by attacks and the movement cost for a slowed unit is doubled. A unit "
@@ -3677,45 +3681,45 @@ msgid ""
 "is selected."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:799
-#: Archaic_Era/utils/Archaic_abilities.cfg:840
-#: Archaic_Era/utils/Archaic_abilities.cfg:881
-#: Archaic_Era/utils/Archaic_abilities.cfg:922
+#: Archaic_Era/utils/Archaic_abilities.cfg:817
+#: Archaic_Era/utils/Archaic_abilities.cfg:858
+#: Archaic_Era/utils/Archaic_abilities.cfg:899
+#: Archaic_Era/utils/Archaic_abilities.cfg:940
 msgid "hide in shell"
 msgstr "甲羅に隠れる"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:819
-#: Archaic_Era/utils/Archaic_abilities.cfg:860
-#: Archaic_Era/utils/Archaic_abilities.cfg:901
-#: Archaic_Era/utils/Archaic_abilities.cfg:942
+#: Archaic_Era/utils/Archaic_abilities.cfg:837
+#: Archaic_Era/utils/Archaic_abilities.cfg:878
+#: Archaic_Era/utils/Archaic_abilities.cfg:919
+#: Archaic_Era/utils/Archaic_abilities.cfg:960
 msgid "stop hiding"
 msgstr "甲羅から出る"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:969
+#: Archaic_Era/utils/Archaic_abilities.cfg:987
 msgid "selfheal"
 msgstr "自己治癒"
 
 # 参照を含むため、WML と gettext の仕様上翻訳不可な文字列 -- Kareha
-#: Archaic_Era/utils/Archaic_abilities.cfg:970
+#: Archaic_Era/utils/Archaic_abilities.cfg:988
+#, fuzzy
 msgid ""
-"selfheal:\n"
 "This unit heals {AMT} HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 "自己治癒:\n"
 "このユニットは、毎ターン、{AMT} のヒットポイントが回復します。毒におかされて"
 "いる場合、毒を消します。"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:987
+#: Archaic_Era/utils/Archaic_abilities.cfg:1004
 msgid "penumbra"
 msgstr "遮光"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:988
+#: Archaic_Era/utils/Archaic_abilities.cfg:1005
 msgid "female^penumbra"
 msgstr "遮光"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:989
+#: Archaic_Era/utils/Archaic_abilities.cfg:1006
+#, fuzzy
 msgid ""
-"Penumbra:\n"
 "This unit obscures the surrounding area, making chaotic units fight better, "
 "and lawful units fight worse.\n"
 "\n"
@@ -3729,19 +3733,35 @@ msgstr ""
 "すべての隣接するユニットは、日中は夕方であるかのように、夕方は夜であるかのよ"
 "うに戦うことになります。"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1002
-#: Archaic_Era/utils/Archaic_abilities.cfg:1004
+#: Archaic_Era/utils/Archaic_abilities.cfg:1018
+#: Archaic_Era/utils/Archaic_abilities.cfg:1020
 msgid "desert-stalk"
 msgstr "砂隠"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1003
-#: Archaic_Era/utils/Archaic_abilities.cfg:1005
+#: Archaic_Era/utils/Archaic_abilities.cfg:1019
+#: Archaic_Era/utils/Archaic_abilities.cfg:1021
 msgid "female^desert-stalk"
 msgstr "砂隠"
 
 # [ja] 良い訳が浮かばない
-#: Archaic_Era/utils/Archaic_abilities.cfg:1006
-#: Archaic_Era/utils/Archaic_abilities.cfg:1010
+#: Archaic_Era/utils/Archaic_abilities.cfg:1022
+#, fuzzy
+msgid ""
+"This unit can hide in sand terrain, and remain undetected by its enemies.\n"
+"\n"
+"Enemy units cannot see this unit while it is on desert terrain, except if "
+"they have units next to it. Any enemy unit that first discovers this unit "
+"immediately loses all its remaining movement."
+msgstr ""
+"砂隠:\n"
+"このユニットは、砂の地形に隠れ、敵から見えない状態になることができます。\n"
+"\n"
+"このユニットは、砂の地形にいる間、見つかることがありません。ただし、敵が隣接"
+"している場合は除きます。このユニットを初めて見つけた敵ユニットは、その時点で"
+"残りのすべての移動力を失います。"
+
+# [ja] 良い訳が浮かばない
+#: Archaic_Era/utils/Archaic_abilities.cfg:1025
 msgid ""
 "Desert-Stalk:\n"
 "This unit can hide in sand terrain, and remain undetected by its enemies.\n"
@@ -3757,58 +3777,88 @@ msgstr ""
 "している場合は除きます。このユニットを初めて見つけた敵ユニットは、その時点で"
 "残りのすべての移動力を失います。"
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1027
-msgid ""
-"Scattershot:\n"
-"This attack always has at least a 70% chance to hit."
+#: Archaic_Era/utils/Archaic_abilities.cfg:1042
+#, fuzzy
+msgid "This attack always has at least a 70% chance to hit."
 msgstr ""
 "乱射:\n"
 "この攻撃は、常に、最低でも 70% の確率で命中します。"
 
-#. [dummy]: id=aa_vector_damage
-#: Archaic_Era/utils/vector_abilities.cfg:102
-msgid "vector damage"
-msgstr "侵蝕ダメージ"
-
-#. [dummy]: id=aa_vector_damage
+#. [attacks]: id=aa_vector_damage
 #: Archaic_Era/utils/vector_abilities.cfg:103
-msgid ""
-"Vector Damage:\n"
-"..."
-msgstr ""
-"侵蝕ダメージ:\n"
-"……"
-
-#: Archaic_Era/utils/vector_abilities.cfg:112
+#: Archaic_Era/utils/vector_abilities.cfg:130
 msgid "vector"
 msgstr "侵蝕"
 
+#. [attacks]: id=aa_vector_damage
+#: Archaic_Era/utils/vector_abilities.cfg:104
+msgid "Upon successful strike, opponent becomes khthon, this unit dies."
+msgstr ""
+
+#. [attacks]: id=aa_vector_damage
+#: Archaic_Era/utils/vector_abilities.cfg:105
+msgid "This attack is only available if the unit is near death."
+msgstr ""
+
 #. [unstore_unit]
-#: Archaic_Era/utils/vector_abilities.cfg:465
+#: Archaic_Era/utils/vector_abilities.cfg:324
 #, fuzzy
 msgid "possessed"
 msgstr "取り憑かれた"
 
 #. [unstore_unit]
-#: Archaic_Era/utils/vector_abilities.cfg:580
+#: Archaic_Era/utils/vector_abilities.cfg:456
 msgid "Possessed"
 msgstr "取り憑かれた"
 
 #. [trait]: id=aa_khthon_enthrall
-#: Archaic_Era/utils/vector_abilities.cfg:695
+#: Archaic_Era/utils/vector_abilities.cfg:589
 msgid "enthrallment"
 msgstr "下僕化"
 
 #. [trait]: id=aa_khthon_enthrall
-#: Archaic_Era/utils/vector_abilities.cfg:696
-msgid "Slain foes become Khthon thralls."
+#: Archaic_Era/utils/vector_abilities.cfg:590
+#, fuzzy
+msgid "Immune to plague, and slain foes become Khthon thralls."
 msgstr "倒した敵をクトーンの下僕に変えます。"
 
 #. [unstore_unit]
-#: Archaic_Era/utils/vector_abilities.cfg:794
+#: Archaic_Era/utils/vector_abilities.cfg:693
 #, fuzzy
 msgid "enthralled"
 msgstr "下僕と化した"
+
+#~ msgid "petrifies"
+#~ msgstr "石化"
+
+#, fuzzy
+#~ msgid ""
+#~ "Petrify:\n"
+#~ "This attack petrifies the target, turning it to stone. Units that have "
+#~ "been petrified may not move or attack."
+#~ msgstr ""
+#~ "石化:\n"
+#~ "\tこの攻撃を受けたユニットは石化します。石化すると移動も攻撃もできません。"
+
+#, fuzzy
+#~ msgid ""
+#~ "Petrify:\n"
+#~ "This attack petrifies the target, turning it to stone. Units that have "
+#~ "been petrified may not move or attack until the curse wears off."
+#~ msgstr ""
+#~ "石化:\n"
+#~ "\tこの攻撃は、対象を石化することで動けなくします。石化したユニットは呪いが"
+#~ "解けるまで移動も攻撃もできません。"
+
+#~ msgid "vector damage"
+#~ msgstr "侵蝕ダメージ"
+
+#~ msgid ""
+#~ "Vector Damage:\n"
+#~ "..."
+#~ msgstr ""
+#~ "侵蝕ダメージ:\n"
+#~ "……"
 
 #~ msgid "Archaic Clean"
 #~ msgstr "いにしえ 幕なし"
