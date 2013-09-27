@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Archaic_Era-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-13 11:27-0400\n"
+"POT-Creation-Date: 2013-09-27 17:57-0400\n"
 "PO-Revision-Date: 2013-03-11 06:09+0100\n"
 "Last-Translator: Pyrophorus <l.sebilleauATfree.fr>\n"
 "Language-Team: French<wesnoth@ml.free.fr>\n"
@@ -3884,44 +3884,44 @@ msgstr ""
 "Cette attaque a toujours au moins 70 % de chance de toucher."
 
 #. [attacks]: id=aa_vector_damage
-#: Archaic_Era/utils/vector_abilities.cfg:103
-#: Archaic_Era/utils/vector_abilities.cfg:130
+#: Archaic_Era/utils/vector_abilities.cfg:107
+#: Archaic_Era/utils/vector_abilities.cfg:134
 msgid "vector"
 msgstr "vecteur"
 
 #. [attacks]: id=aa_vector_damage
-#: Archaic_Era/utils/vector_abilities.cfg:104
+#: Archaic_Era/utils/vector_abilities.cfg:108
 msgid "Upon successful strike, opponent becomes khthon, this unit dies."
 msgstr ""
 
 #. [attacks]: id=aa_vector_damage
-#: Archaic_Era/utils/vector_abilities.cfg:105
+#: Archaic_Era/utils/vector_abilities.cfg:109
 msgid "This attack is only available if the unit is near death."
 msgstr ""
 
 #. [unstore_unit]
-#: Archaic_Era/utils/vector_abilities.cfg:324
+#: Archaic_Era/utils/vector_abilities.cfg:328
 msgid "possessed"
 msgstr "possédé"
 
 #. [unstore_unit]
-#: Archaic_Era/utils/vector_abilities.cfg:456
+#: Archaic_Era/utils/vector_abilities.cfg:460
 msgid "Possessed"
 msgstr "Possédé"
 
 #. [trait]: id=aa_khthon_enthrall
-#: Archaic_Era/utils/vector_abilities.cfg:589
+#: Archaic_Era/utils/vector_abilities.cfg:593
 msgid "enthrallment"
 msgstr "captivation"
 
 #. [trait]: id=aa_khthon_enthrall
-#: Archaic_Era/utils/vector_abilities.cfg:590
+#: Archaic_Era/utils/vector_abilities.cfg:594
 #, fuzzy
 msgid "Immune to plague, and slain foes become Khthon thralls."
 msgstr "Les adversaires massacrés deviennent des serfs chthoniens."
 
 #. [unstore_unit]
-#: Archaic_Era/utils/vector_abilities.cfg:693
+#: Archaic_Era/utils/vector_abilities.cfg:697
 msgid "enthralled"
 msgstr "captivés"
 

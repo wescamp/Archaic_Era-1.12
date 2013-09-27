@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Archaic_Era-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-13 11:27-0400\n"
+"POT-Creation-Date: 2013-09-27 17:57-0400\n"
 "PO-Revision-Date: 2012-02-15 17:14+0100\n"
 "Last-Translator: Kelemen Zoltan <kelemen_zoltan@freemail.hu>\n"
 "Language-Team: none\n"
@@ -3746,45 +3746,45 @@ msgstr ""
 "Ez a támadás mindig legalább 70% eséllyel talál."
 
 #. [attacks]: id=aa_vector_damage
-#: Archaic_Era/utils/vector_abilities.cfg:103
-#: Archaic_Era/utils/vector_abilities.cfg:130
+#: Archaic_Era/utils/vector_abilities.cfg:107
+#: Archaic_Era/utils/vector_abilities.cfg:134
 msgid "vector"
 msgstr "járvány"
 
 #. [attacks]: id=aa_vector_damage
-#: Archaic_Era/utils/vector_abilities.cfg:104
+#: Archaic_Era/utils/vector_abilities.cfg:108
 msgid "Upon successful strike, opponent becomes khthon, this unit dies."
 msgstr ""
 
 #. [attacks]: id=aa_vector_damage
-#: Archaic_Era/utils/vector_abilities.cfg:105
+#: Archaic_Era/utils/vector_abilities.cfg:109
 msgid "This attack is only available if the unit is near death."
 msgstr ""
 
 #. [unstore_unit]
-#: Archaic_Era/utils/vector_abilities.cfg:324
+#: Archaic_Era/utils/vector_abilities.cfg:328
 #, fuzzy
 msgid "possessed"
 msgstr "Megszállott"
 
 #. [unstore_unit]
-#: Archaic_Era/utils/vector_abilities.cfg:456
+#: Archaic_Era/utils/vector_abilities.cfg:460
 msgid "Possessed"
 msgstr "Megszállott"
 
 #. [trait]: id=aa_khthon_enthrall
-#: Archaic_Era/utils/vector_abilities.cfg:589
+#: Archaic_Era/utils/vector_abilities.cfg:593
 msgid "enthrallment"
 msgstr "bűvölet"
 
 #. [trait]: id=aa_khthon_enthrall
-#: Archaic_Era/utils/vector_abilities.cfg:590
+#: Archaic_Era/utils/vector_abilities.cfg:594
 #, fuzzy
 msgid "Immune to plague, and slain foes become Khthon thralls."
 msgstr "A megölt ellenségek khthon rabszolgává válnak."
 
 #. [unstore_unit]
-#: Archaic_Era/utils/vector_abilities.cfg:693
+#: Archaic_Era/utils/vector_abilities.cfg:697
 #, fuzzy
 msgid "enthralled"
 msgstr "Elbűvölt"
