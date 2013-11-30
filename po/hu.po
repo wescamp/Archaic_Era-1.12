@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Archaic_Era-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-27 17:57-0400\n"
+"POT-Creation-Date: 2013-11-30 19:13+0100\n"
 "PO-Revision-Date: 2012-02-15 17:14+0100\n"
 "Last-Translator: Kelemen Zoltan <kelemen_zoltan@freemail.hu>\n"
 "Language-Team: none\n"
@@ -18,13 +18,21 @@ msgstr ""
 msgid "Archaic Era"
 msgstr "Ősi korszak"
 
+#. [era]: id=ARCHAIC_ERA
+#: Archaic_Era/eras/Archaic_Era.cfg:145
+msgid ""
+"A UMC era with the races in the add-on Bad Moon Rising.  Six unique "
+"factions, in addition to orcs, undead, and loyalists.  Somewhat balanced, "
+"but far from perfect."
+msgstr ""
+
 #. [era]: id=ARCHAIC_ERA_HEROS
-#: Archaic_Era/eras/Archaic_Era.cfg:165
+#: Archaic_Era/eras/Archaic_Era.cfg:167
 msgid "Archaic Heros"
 msgstr "Ősi hősök"
 
 #. [era]: id=ARCHAIC_ERA_RPG
-#: Archaic_Era/eras/Archaic_Era.cfg:184
+#: Archaic_Era/eras/Archaic_Era.cfg:186
 msgid "Archaic RPG"
 msgstr "Ősi korszak SZJ"
 
@@ -264,13 +272,13 @@ msgid "stone fist"
 msgstr "kőököl"
 
 #. [attack]: type=blade
-#: Archaic_Era/units/despair/Phantom_Armor.cfg:112
-#: Archaic_Era/units/despair/Phantom_Stone.cfg:111
+#: Archaic_Era/units/despair/Phantom_Armor.cfg:113
+#: Archaic_Era/units/despair/Phantom_Stone.cfg:112
 msgid "stone blade"
 msgstr "kőpenge"
 
 #. [attack]: type=cold
-#: Archaic_Era/units/despair/Phantom_Armor.cfg:121
+#: Archaic_Era/units/despair/Phantom_Armor.cfg:122
 #: Archaic_Era/units/despair/Phantom_Cloak.cfg:83
 #: Archaic_Era/units/despair/Phantom_Knight.cfg:143
 #: Archaic_Era/units/despair/Phantom_Master.cfg:86
@@ -279,7 +287,7 @@ msgstr "kőpenge"
 #: Archaic_Era/units/despair/Phantom_Soldier.cfg:84
 #: Archaic_Era/units/despair/Phantom_Spear.cfg:85
 #: Archaic_Era/units/despair/Phantom_Statue.cfg:111
-#: Archaic_Era/units/despair/Phantom_Stone.cfg:120
+#: Archaic_Era/units/despair/Phantom_Stone.cfg:121
 msgid "hatred"
 msgstr "gyűlölethullám"
 
@@ -1497,12 +1505,12 @@ msgid "Tomb Sentinel"
 msgstr "Kriptaőrző"
 
 #. [unit_type]: id=Tomb Shade, race=phantom_egypt
-#: Archaic_Era/units/phantom/Tomb_Shade.cfg:149
+#: Archaic_Era/units/phantom/Tomb_Shade.cfg:156
 msgid "Vapor"
 msgstr "Árnyfoszlány"
 
 #. [unit_type]: id=Tomb Shade, race=phantom_egypt
-#: Archaic_Era/units/phantom/Tomb_Shade.cfg:157
+#: Archaic_Era/units/phantom/Tomb_Shade.cfg:164
 #, fuzzy
 msgid ""
 "The Vapor can take the form of a real fighter, but the deception is apparent "
