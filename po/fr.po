@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Archaic_Era-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-30 19:13+0100\n"
+"POT-Creation-Date: 2014-03-03 21:37+0100\n"
 "PO-Revision-Date: 2013-03-11 06:09+0100\n"
 "Last-Translator: Pyrophorus <l.sebilleauATfree.fr>\n"
 "Language-Team: French<wesnoth@ml.free.fr>\n"
@@ -250,12 +250,12 @@ msgstr "Guerrier de pierre"
 #: Archaic_Era/units/phantom/Tomb_Shield.cfg:21
 #: Archaic_Era/units/phantom/Tomb_Stalker.cfg:21
 #: Archaic_Era/units/phantom_race.cfg:41
-#: Archaic_Era/units/south-seas/Demolitionist.cfg:22
+#: Archaic_Era/units/south-seas/Demolitionist.cfg:23
 #: Archaic_Era/units/south-seas/Divers.cfg:44
 #: Archaic_Era/units/south-seas/Marines.cfg:46
-#: Archaic_Era/units/south-seas/Scourge.cfg:22
+#: Archaic_Era/units/south-seas/Scourge.cfg:23
 #: Archaic_Era/units/south-seas/Sky-Caller.cfg:23
-#: Archaic_Era/units/south-seas/Spitfire.cfg:23
+#: Archaic_Era/units/south-seas/Spitfire.cfg:24
 #: Archaic_Era/units/south-seas/Wolf.cfg:23
 #: Archaic_Era/units/ukians/Royal_Constable.cfg:20
 #: Archaic_Era/units/ukians/Royal_Sheriff.cfg:19
@@ -760,9 +760,9 @@ msgstr "Grand-Catoblépas"
 #: Archaic_Era/units/khthon/Katoblepon-Magnum.cfg:48
 #: Archaic_Era/units/khthon/Katoblepon.cfg:48
 #: Archaic_Era/units/khthon/Pyradalon.cfg:45
-#: Archaic_Era/units/khthon/Ram.cfg:36 Archaic_Era/units/orcs/Cavalry.cfg:37
-#: Archaic_Era/units/orcs/Destrier.cfg:39
-#: Archaic_Era/units/orcs/Oxrider.cfg:33
+#: Archaic_Era/units/khthon/Ram.cfg:36 Archaic_Era/units/orcs/Cavalry.cfg:39
+#: Archaic_Era/units/orcs/Destrier.cfg:41
+#: Archaic_Era/units/orcs/Oxrider.cfg:35
 msgid "head"
 msgstr "pointe"
 
@@ -1157,7 +1157,7 @@ msgid "Cavalry"
 msgstr "Cavalier"
 
 #. [unit_type]: id=Orcish Cavalry, race=orc
-#: Archaic_Era/units/orcs/Cavalry.cfg:19
+#: Archaic_Era/units/orcs/Cavalry.cfg:21
 msgid ""
 "The more experienced riders have acquired better armor and have also learned "
 "how to keep their mount from getting pierced in the throught. Because of "
@@ -1178,7 +1178,7 @@ msgid "Destrier"
 msgstr "Cuirassier"
 
 #. [unit_type]: id=Orcish Destrier, race=orc
-#: Archaic_Era/units/orcs/Destrier.cfg:20
+#: Archaic_Era/units/orcs/Destrier.cfg:22
 msgid ""
 "The elite members of the orcish cavalry have reached a great level of "
 "prowess and notoriety upon the battle field, but are expensive to maintain "
@@ -1284,7 +1284,7 @@ msgid "Orcish Rider"
 msgstr "Monteur orc"
 
 #. [unit_type]: id=Orcish Rider, race=orc
-#: Archaic_Era/units/orcs/Oxrider.cfg:19
+#: Archaic_Era/units/orcs/Oxrider.cfg:21
 msgid ""
 "Despite their reputation for stupidity, the orcs are able to learn tactics "
 "from their enemy. The more observant orcs note the utility of the human "
@@ -1563,12 +1563,12 @@ msgid "Tomb Sentinel"
 msgstr "Sentinelle de tombeau"
 
 #. [unit_type]: id=Tomb Shade, race=phantom_egypt
-#: Archaic_Era/units/phantom/Tomb_Shade.cfg:156
+#: Archaic_Era/units/phantom/Tomb_Shade.cfg:164
 msgid "Vapor"
 msgstr "Vapeur"
 
 #. [unit_type]: id=Tomb Shade, race=phantom_egypt
-#: Archaic_Era/units/phantom/Tomb_Shade.cfg:164
+#: Archaic_Era/units/phantom/Tomb_Shade.cfg:172
 #, fuzzy
 msgid ""
 "The Vapor can take the form of a real fighter, but the deception is apparent "
@@ -2245,7 +2245,7 @@ msgid "Primevalist Sun-Shield"
 msgstr "Chef ouraniste"
 
 #. [unit_type]: id=Primevalist Shield_High, race=primevalist_human
-#: Archaic_Era/units/primeval/Primevalist_Shield-High.cfg:20
+#: Archaic_Era/units/primeval/Primevalist_Shield-High.cfg:22
 msgid ""
 "These fighters play a supporting role, stoically absorbing damage so that "
 "their more hot tempered commrads survive long enough to accomplish their "
@@ -2266,7 +2266,7 @@ msgid "Primevalist Brightshield"
 msgstr "Hoplite ouranien"
 
 #. [unit_type]: id=Primevalist Shield, race=primevalist_human
-#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:109
+#: Archaic_Era/units/primeval/Primevalist_Shield.cfg:111
 #, fuzzy
 msgid ""
 "These fighters play a supporting role, stoically absorbing damage so that "
@@ -2473,7 +2473,7 @@ msgid "Arsonist"
 msgstr "Pyromane"
 
 #. [unit_type]: id=SouthSeas Arsonist, race=south-seas_human
-#: Archaic_Era/units/south-seas/Arsonist.cfg:22
+#: Archaic_Era/units/south-seas/Arsonist.cfg:23
 msgid ""
 "Ships are a very important part of life in the South Seas, so if one wanted "
 "to ruin a successful member of society, they would destroy their ships.  The "
@@ -2486,7 +2486,7 @@ msgstr ""
 "la nuit, pour éviter les dockers et les marins."
 
 #. [attack]: type=fire
-#: Archaic_Era/units/south-seas/Arsonist.cfg:46
+#: Archaic_Era/units/south-seas/Arsonist.cfg:47
 msgid "spark"
 msgstr "Étincelle"
 
@@ -2539,8 +2539,8 @@ msgid "Demolitionist"
 msgstr "Démolisseur"
 
 #. [attack]: type=fire
-#: Archaic_Era/units/south-seas/Demolitionist.cfg:47
-#: Archaic_Era/units/south-seas/Spitfire.cfg:48
+#: Archaic_Era/units/south-seas/Demolitionist.cfg:48
+#: Archaic_Era/units/south-seas/Spitfire.cfg:49
 msgid "flame"
 msgstr "Flamme"
 
@@ -2632,13 +2632,13 @@ msgid "female^Sea-Scourge"
 msgstr "Fléau des mers"
 
 #. [attack]: type=cold
-#: Archaic_Era/units/south-seas/Scourge.cfg:43
-#: Archaic_Era/units/south-seas/Seahag.cfg:42
+#: Archaic_Era/units/south-seas/Scourge.cfg:44
+#: Archaic_Era/units/south-seas/Seahag.cfg:43
 msgid "fear"
 msgstr "peur"
 
 #. [attack]: type=arcane
-#: Archaic_Era/units/south-seas/Scourge.cfg:56
+#: Archaic_Era/units/south-seas/Scourge.cfg:57
 msgid "arcanum"
 msgstr "arcanum"
 
@@ -2648,7 +2648,7 @@ msgid "female^Seahag"
 msgstr "Sorcière des mers"
 
 #. [unit_type]: id=SouthSeas Seahag, race=south-seas_human
-#: Archaic_Era/units/south-seas/Seahag.cfg:21
+#: Archaic_Era/units/south-seas/Seahag.cfg:22
 #, fuzzy
 msgid ""
 "Seahags focus on the lore of the dark faction of Athtep and Nura. They pay "
@@ -3892,44 +3892,44 @@ msgstr ""
 "Cette attaque a toujours au moins 70 % de chance de toucher."
 
 #. [attacks]: id=aa_vector_damage
-#: Archaic_Era/utils/vector_abilities.cfg:107
-#: Archaic_Era/utils/vector_abilities.cfg:134
+#: Archaic_Era/utils/vector_abilities.cfg:111
+#: Archaic_Era/utils/vector_abilities.cfg:138
 msgid "vector"
 msgstr "vecteur"
 
 #. [attacks]: id=aa_vector_damage
-#: Archaic_Era/utils/vector_abilities.cfg:108
+#: Archaic_Era/utils/vector_abilities.cfg:112
 msgid "Upon successful strike, opponent becomes khthon, this unit dies."
 msgstr ""
 
 #. [attacks]: id=aa_vector_damage
-#: Archaic_Era/utils/vector_abilities.cfg:109
+#: Archaic_Era/utils/vector_abilities.cfg:113
 msgid "This attack is only available if the unit is near death."
 msgstr ""
 
 #. [unstore_unit]
-#: Archaic_Era/utils/vector_abilities.cfg:328
+#: Archaic_Era/utils/vector_abilities.cfg:332
 msgid "possessed"
 msgstr "possédé"
 
 #. [unstore_unit]
-#: Archaic_Era/utils/vector_abilities.cfg:460
+#: Archaic_Era/utils/vector_abilities.cfg:464
 msgid "Possessed"
 msgstr "Possédé"
 
 #. [trait]: id=aa_khthon_enthrall
-#: Archaic_Era/utils/vector_abilities.cfg:593
+#: Archaic_Era/utils/vector_abilities.cfg:597
 msgid "enthrallment"
 msgstr "captivation"
 
 #. [trait]: id=aa_khthon_enthrall
-#: Archaic_Era/utils/vector_abilities.cfg:594
+#: Archaic_Era/utils/vector_abilities.cfg:598
 #, fuzzy
 msgid "Immune to plague, and slain foes become Khthon thralls."
 msgstr "Les adversaires massacrés deviennent des serfs chthoniens."
 
 #. [unstore_unit]
-#: Archaic_Era/utils/vector_abilities.cfg:697
+#: Archaic_Era/utils/vector_abilities.cfg:701
 msgid "enthralled"
 msgstr "captivés"
 
