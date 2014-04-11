@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Archaic_Era-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-03 21:37+0100\n"
+"POT-Creation-Date: 2014-04-11 15:06+0200\n"
 "PO-Revision-Date: 2011-10-06 05:33+0900\n"
 "Last-Translator: Kareha <kareha1929@gmail.com>\n"
 "Language-Team: <wesnoth-ja-translate@lists.sourceforge.jp>\n"
@@ -3794,7 +3794,7 @@ msgstr ""
 
 #. [attacks]: id=aa_vector_damage
 #: Archaic_Era/utils/vector_abilities.cfg:111
-#: Archaic_Era/utils/vector_abilities.cfg:138
+#: Archaic_Era/utils/vector_abilities.cfg:139
 msgid "vector"
 msgstr "侵蝕"
 
@@ -3808,30 +3808,42 @@ msgstr ""
 msgid "This attack is only available if the unit is near death."
 msgstr ""
 
+#. [trait]: id=aa_khthon_enthrall
+#: Archaic_Era/utils/vector_abilities.cfg:193
+msgid "netherworld spirit"
+msgstr ""
+
+#. [trait]: id=aa_khthon_enthrall
+#: Archaic_Era/utils/vector_abilities.cfg:194
+msgid ""
+"Essential Khthon traits:  immune to plagues and has enthrallment and vector "
+"attacks"
+msgstr ""
+
+#. [chance_to_hit]: id=aa_k_enth
+#: Archaic_Era/utils/vector_abilities.cfg:206
+msgid "enthrallment"
+msgstr "下僕化"
+
+#. [chance_to_hit]: id=aa_k_enth
+#: Archaic_Era/utils/vector_abilities.cfg:207
+#, fuzzy
+msgid "Slain foes become Khthon Thralls"
+msgstr "倒した敵をクトーンの下僕に変えます。"
+
 #. [unstore_unit]
-#: Archaic_Era/utils/vector_abilities.cfg:332
+#: Archaic_Era/utils/vector_abilities.cfg:383
 #, fuzzy
 msgid "possessed"
 msgstr "取り憑かれた"
 
 #. [unstore_unit]
-#: Archaic_Era/utils/vector_abilities.cfg:464
+#: Archaic_Era/utils/vector_abilities.cfg:525
 msgid "Possessed"
 msgstr "取り憑かれた"
 
-#. [trait]: id=aa_khthon_enthrall
-#: Archaic_Era/utils/vector_abilities.cfg:597
-msgid "enthrallment"
-msgstr "下僕化"
-
-#. [trait]: id=aa_khthon_enthrall
-#: Archaic_Era/utils/vector_abilities.cfg:598
-#, fuzzy
-msgid "Immune to plague, and slain foes become Khthon thralls."
-msgstr "倒した敵をクトーンの下僕に変えます。"
-
 #. [unstore_unit]
-#: Archaic_Era/utils/vector_abilities.cfg:701
+#: Archaic_Era/utils/vector_abilities.cfg:763
 #, fuzzy
 msgid "enthralled"
 msgstr "下僕と化した"

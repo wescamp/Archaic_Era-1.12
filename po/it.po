@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-03 21:37+0100\n"
+"POT-Creation-Date: 2014-04-11 15:06+0200\n"
 "PO-Revision-Date: 2013-02-19 20:57+0100\n"
 "Last-Translator: BioHazardX <dhamp90@aol.com>\n"
 "Language-Team: none\n"
@@ -3406,7 +3406,7 @@ msgstr ""
 
 #. [attacks]: id=aa_vector_damage
 #: Archaic_Era/utils/vector_abilities.cfg:111
-#: Archaic_Era/utils/vector_abilities.cfg:138
+#: Archaic_Era/utils/vector_abilities.cfg:139
 msgid "vector"
 msgstr "possedimento"
 
@@ -3420,29 +3420,41 @@ msgstr ""
 msgid "This attack is only available if the unit is near death."
 msgstr ""
 
+#. [trait]: id=aa_khthon_enthrall
+#: Archaic_Era/utils/vector_abilities.cfg:193
+msgid "netherworld spirit"
+msgstr ""
+
+#. [trait]: id=aa_khthon_enthrall
+#: Archaic_Era/utils/vector_abilities.cfg:194
+msgid ""
+"Essential Khthon traits:  immune to plagues and has enthrallment and vector "
+"attacks"
+msgstr ""
+
+#. [chance_to_hit]: id=aa_k_enth
+#: Archaic_Era/utils/vector_abilities.cfg:206
+msgid "enthrallment"
+msgstr "schiavitù"
+
+#. [chance_to_hit]: id=aa_k_enth
+#: Archaic_Era/utils/vector_abilities.cfg:207
+#, fuzzy
+msgid "Slain foes become Khthon Thralls"
+msgstr "I nemici uccisi diventano gli schiavi dei khthon."
+
 #. [unstore_unit]
-#: Archaic_Era/utils/vector_abilities.cfg:332
+#: Archaic_Era/utils/vector_abilities.cfg:383
 msgid "possessed"
 msgstr "posseduto"
 
 #. [unstore_unit]
-#: Archaic_Era/utils/vector_abilities.cfg:464
+#: Archaic_Era/utils/vector_abilities.cfg:525
 msgid "Possessed"
 msgstr "Posseduto"
 
-#. [trait]: id=aa_khthon_enthrall
-#: Archaic_Era/utils/vector_abilities.cfg:597
-msgid "enthrallment"
-msgstr "schiavitù"
-
-#. [trait]: id=aa_khthon_enthrall
-#: Archaic_Era/utils/vector_abilities.cfg:598
-#, fuzzy
-msgid "Immune to plague, and slain foes become Khthon thralls."
-msgstr "I nemici uccisi diventano gli schiavi dei khthon."
-
 #. [unstore_unit]
-#: Archaic_Era/utils/vector_abilities.cfg:701
+#: Archaic_Era/utils/vector_abilities.cfg:763
 msgid "enthralled"
 msgstr "schiavizzato"
 
