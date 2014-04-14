@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Archaic_Era-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-11 15:06+0200\n"
+"POT-Creation-Date: 2014-04-14 13:25+0200\n"
 "PO-Revision-Date: 2012-09-28 02:19+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -13,25 +13,26 @@ msgstr ""
 
 #. [era]: id=ARCHAIC_ERA
 #. [era]: id=ARCHAIC_ERA_II
-#: Archaic_Era/eras/Archaic_Era.cfg:41 Archaic_Era/eras/Archaic_Era.cfg:143
+#: Archaic_Era/eras/Archaic_Era.cfg:42 Archaic_Era/eras/Archaic_Era.cfg:144
 msgid "Archaic Era"
 msgstr ""
 
 #. [era]: id=ARCHAIC_ERA
-#: Archaic_Era/eras/Archaic_Era.cfg:145
+#: Archaic_Era/eras/Archaic_Era.cfg:146
 msgid ""
 "A UMC era with the races in the add-on Bad Moon Rising.  Six unique "
 "factions, in addition to orcs, undead, and loyalists.  Somewhat balanced, "
-"but far from perfect."
+"but far from perfect.  Phantom and Primeval factions are available, but are "
+"overpowered, and not included in Random Faction options."
 msgstr ""
 
 #. [era]: id=ARCHAIC_ERA_HEROS
-#: Archaic_Era/eras/Archaic_Era.cfg:167
+#: Archaic_Era/eras/Archaic_Era.cfg:168
 msgid "Archaic Heros"
 msgstr ""
 
 #. [era]: id=ARCHAIC_ERA_RPG
-#: Archaic_Era/eras/Archaic_Era.cfg:186
+#: Archaic_Era/eras/Archaic_Era.cfg:187
 msgid "Archaic RPG"
 msgstr ""
 
@@ -58,24 +59,17 @@ msgstr ""
 msgid "Northern Orcs"
 msgstr ""
 
-#. [multiplayer_side]: id=Archaic_Phantom, type=Tomb Protector
-#. [multiplayer_side]: id=Archaic_Phantom, type=Tomb Sentinel
 #. [multiplayer_side]: id=Archaic_Phantom, type=Tomb Shield
 #: Archaic_Era/eras/base/phantom_MP.cfg:5
-#: Archaic_Era/eras/heros/phantom_MP.cfg:5
-#: Archaic_Era/eras/rpg/phantom_MP.cfg:5
-msgid "Phantom"
+msgid "Phantom (overpowered)"
 msgstr ""
 
 #. [multiplayer_side]: id=Archaic_Primeval, type=Primeval Driver
-#. [multiplayer_side]: id=Archaic_Primeval, type=Primeval Warrior
 #: Archaic_Era/eras/base/primeval_MP.cfg:5
-#: Archaic_Era/eras/heros/primeval_MP.cfg:5
-#: Archaic_Era/eras/rpg/primeval_MP.cfg:5
-msgid "Primeval"
+msgid "Primeval (overpowered)"
 msgstr ""
 
-#. [multiplayer_side]: id=Archaic_Random, type=Primeval Driver
+#. [multiplayer_side]: id=Archaic_Random, type=random
 #: Archaic_Era/eras/base/random_MP.cfg:5
 msgid "Random"
 msgstr ""
@@ -94,6 +88,20 @@ msgstr ""
 #: Archaic_Era/eras/base/ukians_MP.cfg:5
 #: Archaic_Era/eras/heros/ukians_MP.cfg:5 Archaic_Era/eras/rpg/ukians_MP.cfg:5
 msgid "Ukians"
+msgstr ""
+
+#. [multiplayer_side]: id=Archaic_Phantom, type=Tomb Protector
+#. [multiplayer_side]: id=Archaic_Phantom, type=Tomb Sentinel
+#: Archaic_Era/eras/heros/phantom_MP.cfg:5
+#: Archaic_Era/eras/rpg/phantom_MP.cfg:5
+msgid "Phantom"
+msgstr ""
+
+#. [multiplayer_side]: id=Archaic_Primeval, type=Primeval Driver
+#. [multiplayer_side]: id=Archaic_Primeval, type=Primeval Warrior
+#: Archaic_Era/eras/heros/primeval_MP.cfg:5
+#: Archaic_Era/eras/rpg/primeval_MP.cfg:5
+msgid "Primeval"
 msgstr ""
 
 #. [menu]: id=menu-main
@@ -1561,7 +1569,7 @@ msgid ""
 "Primeval Drivers are not that much smaller than a Troll. They have risen out "
 "of the Slowfoot ranks through strength and experience. With enough luck and "
 "determination, they might be able to escape their caste and join the ranks "
-"of the Destroyers.\n"
+"of the Line Breakers.\n"
 "Special Note:"
 msgstr ""
 
@@ -1614,13 +1622,16 @@ msgstr ""
 
 #. [unit_type]: id=Primeval Giant, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Giant.cfg:5
-msgid "Destroyer"
+msgid "Line Breaker"
 msgstr ""
 
 #. [unit_type]: id=Primeval Giant, race=primeval
 #: Archaic_Era/units/primeval/Primeval_Giant.cfg:21
 msgid ""
-"The Primeval Destroyers ...\n"
+"The Primeval Line Breakers are very aggressive and strong, and use these "
+"talents to punch a hole in enemy defensive formations.  Like the Drivers "
+"from whose ranks they rose, they lead a rough and dangerous life.  But they "
+"wouldn't have it any other way.\n"
 "Special Note:"
 msgstr ""
 
@@ -1935,8 +1946,15 @@ msgstr ""
 #. [race]: id=primevalist_human
 #: Archaic_Era/units/primeval_race.cfg:8
 msgid ""
-"The race of men is an extremely diverse one. Some of them fall prey to the "
-"promises of false hope and false saviours."
+"The race of men is an extremely diverse one. Some of them bow and scrape "
+"before their wealthy, blue-blooded, leaders, while others turn to a life of "
+"crime.  Then there are those who fall prey to the promises of false hope and "
+"false saviours, or are just searching for a stronger power to overthrow the "
+"current world order.  The revived Primeval Gods, and their messangers, "
+"provide this last group with the resources and opportunity to strike back at "
+"the Kingdoms, Tribes, and Guilds with which they are so disgusted.  Thus "
+"armed and organized, these rebels are the disposable front-line forces of "
+"the Primeval Legion."
 msgstr ""
 
 #. [race]: id=primeval
@@ -1987,11 +2005,11 @@ msgid ""
 "and were able to easily mine and forge metals, fertilizers, and reactive "
 "chemicals; resources were unlimited.  Many of the modern races would have "
 "simply enjoyed a population explosion, but the austere Primeval culture led "
-"to something else.  Many biological and mechanical feats of engineering were "
-"the result.  The downside of the rapid development was that the "
-"technological advances were uneven (roads, guns, aeroplanes, and many other "
-"things had simply never been imagined) and they all rested upon a power "
-"source no one understood:  magic.\n"
+"to something else.  Many feats of engineering were the result.  The downside "
+"of the rapid development was that the technological advances were uneven "
+"(roads, guns, aeroplanes, and many other things had simply never been "
+"imagined) and they all rested upon a power source no one understood:  that "
+"which some call 'magic'.\n"
 "\n"
 "<header>text='Society'</header>\n"
 "The Primeval social order is very rigid, but merit-based.  The leaders are "
@@ -2004,8 +2022,8 @@ msgid ""
 "and can become too focussed upon narrow goals.\n"
 "\n"
 "As a result of both the rigid meritocracy and the abundance of resources, "
-"the Primevals lost whatever tendancy toward division of the sexes they ever "
-"had.  In general, the roles requiring strength fall to the males while roles "
+"the Primevals lost whatever ideas about gender roles they once had.  In "
+"general, the roles requiring strength fall to the males while roles "
 "requiring endurance fall to the females, but either sex can become a leader "
 "and both sexes are expected to engage in combat."
 msgstr ""
@@ -2148,7 +2166,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=pierce
-#: Archaic_Era/units/south-seas/Rover.cfg:39
+#: Archaic_Era/units/south-seas/Rover.cfg:40
 #: Archaic_Era/units/south-seas/Wolf.cfg:42
 msgid "dart"
 msgstr ""
@@ -2378,14 +2396,6 @@ msgstr ""
 msgid "Constable"
 msgstr ""
 
-#. [attack]: type=impact
-#: Archaic_Era/units/ukians/Royal_Constable.cfg:59
-#: Archaic_Era/units/ukians/Royal_Sheriff.cfg:58
-#: Archaic_Era/units/ukians/Royal_Vassal.cfg:58
-#: Archaic_Era/utils/Archaic_abilities.cfg:1041
-msgid "scattershot"
-msgstr ""
-
 #. [unit_type]: id=Northern Elite, race=human
 #: Archaic_Era/units/ukians/Royal_Elite.cfg:4
 msgid "Northern Warrior"
@@ -2447,6 +2457,12 @@ msgstr ""
 msgid "Vassal"
 msgstr ""
 
+#. [attack]: type=fire
+#: Archaic_Era/units/ukians/Royal_Vassal.cfg:49
+#: Archaic_Era/units/ukians/Ukian_Wardog.cfg:132
+msgid "torch"
+msgstr ""
+
 #. [unit_type]: id=Ukian Archer, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Archer.cfg:4
 msgid "Ukian Archer"
@@ -2475,7 +2491,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=blade
-#: Archaic_Era/units/ukians/Ukian_Attackdog.cfg:49
+#: Archaic_Era/units/ukians/Ukian_Attackdog.cfg:51
 msgid "fury"
 msgstr ""
 
@@ -2776,11 +2792,6 @@ msgstr ""
 msgid "War Hound"
 msgstr ""
 
-#. [attack]: type=fire
-#: Archaic_Era/units/ukians/Ukian_Wardog.cfg:132
-msgid "torch"
-msgstr ""
-
 #. [unit_type]: id=Ukian Witch, race=ukian
 #: Archaic_Era/units/ukians/Ukian_Witch.cfg:5
 msgid "Ukian Witch"
@@ -3035,57 +3046,57 @@ msgid ""
 msgstr ""
 
 #. [resistance]: id=aa_stone
-#: Archaic_Era/utils/Archaic_abilities.cfg:173
+#: Archaic_Era/utils/Archaic_abilities.cfg:174
 msgid "stone"
 msgstr ""
 
 #. [resistance]: id=aa_stone
-#: Archaic_Era/utils/Archaic_abilities.cfg:174
+#: Archaic_Era/utils/Archaic_abilities.cfg:175
 msgid "female^stone"
 msgstr ""
 
 #. [resistance]: id=aa_stone
-#: Archaic_Era/utils/Archaic_abilities.cfg:175
+#: Archaic_Era/utils/Archaic_abilities.cfg:176
 msgid ""
 "This unit is stone in the daylight, if not next to an ally or in a village, "
 "but is always mobile at night."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:485
+#: Archaic_Era/utils/Archaic_abilities.cfg:488
 msgid "release stoned victims"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:521
-#: Archaic_Era/utils/Archaic_abilities.cfg:567
+#: Archaic_Era/utils/Archaic_abilities.cfg:524
+#: Archaic_Era/utils/Archaic_abilities.cfg:570
 msgid "Free"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:578
+#: Archaic_Era/utils/Archaic_abilities.cfg:581
 msgid "fog"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:579
+#: Archaic_Era/utils/Archaic_abilities.cfg:582
 msgid ""
 "The opponent is enveloped in an opaque fog and cannot see very well, so "
 "their chance to hit is reduced."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:589
+#: Archaic_Era/utils/Archaic_abilities.cfg:592
 msgid "wind-up"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:590
+#: Archaic_Era/utils/Archaic_abilities.cfg:593
 msgid ""
 "The unit has a greater chance of landing a successful blow if the enemy is "
 "distracted.  Similar to Thief's backstab, but affects chance to hit instead "
 "of damage."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:598
+#: Archaic_Era/utils/Archaic_abilities.cfg:601
 msgid "slows"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:599
+#: Archaic_Era/utils/Archaic_abilities.cfg:602
 msgid ""
 "This attack slows the target until it ends a turn. Slow halves the damage "
 "caused by attacks and the movement cost for a slowed unit is doubled. A unit "
@@ -3093,38 +3104,38 @@ msgid ""
 "is selected."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:817
-#: Archaic_Era/utils/Archaic_abilities.cfg:858
-#: Archaic_Era/utils/Archaic_abilities.cfg:899
-#: Archaic_Era/utils/Archaic_abilities.cfg:940
+#: Archaic_Era/utils/Archaic_abilities.cfg:820
+#: Archaic_Era/utils/Archaic_abilities.cfg:861
+#: Archaic_Era/utils/Archaic_abilities.cfg:902
+#: Archaic_Era/utils/Archaic_abilities.cfg:943
 msgid "hide in shell"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:837
-#: Archaic_Era/utils/Archaic_abilities.cfg:878
-#: Archaic_Era/utils/Archaic_abilities.cfg:919
-#: Archaic_Era/utils/Archaic_abilities.cfg:960
+#: Archaic_Era/utils/Archaic_abilities.cfg:840
+#: Archaic_Era/utils/Archaic_abilities.cfg:881
+#: Archaic_Era/utils/Archaic_abilities.cfg:922
+#: Archaic_Era/utils/Archaic_abilities.cfg:963
 msgid "stop hiding"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:987
+#: Archaic_Era/utils/Archaic_abilities.cfg:990
 msgid "selfheal"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:988
+#: Archaic_Era/utils/Archaic_abilities.cfg:991
 msgid ""
 "This unit heals {AMT} HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1004
+#: Archaic_Era/utils/Archaic_abilities.cfg:1007
 msgid "penumbra"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1005
+#: Archaic_Era/utils/Archaic_abilities.cfg:1008
 msgid "female^penumbra"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1006
+#: Archaic_Era/utils/Archaic_abilities.cfg:1009
 msgid ""
 "This unit obscures the surrounding area, making chaotic units fight better, "
 "and lawful units fight worse.\n"
@@ -3133,17 +3144,17 @@ msgid ""
 "day, and as if it were night when it is dusk."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1018
-#: Archaic_Era/utils/Archaic_abilities.cfg:1020
+#: Archaic_Era/utils/Archaic_abilities.cfg:1021
+#: Archaic_Era/utils/Archaic_abilities.cfg:1023
 msgid "desert-stalk"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1019
-#: Archaic_Era/utils/Archaic_abilities.cfg:1021
+#: Archaic_Era/utils/Archaic_abilities.cfg:1022
+#: Archaic_Era/utils/Archaic_abilities.cfg:1024
 msgid "female^desert-stalk"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1022
+#: Archaic_Era/utils/Archaic_abilities.cfg:1025
 msgid ""
 "This unit can hide in sand terrain, and remain undetected by its enemies.\n"
 "\n"
@@ -3152,7 +3163,7 @@ msgid ""
 "immediately loses all its remaining movement."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1025
+#: Archaic_Era/utils/Archaic_abilities.cfg:1028
 msgid ""
 "Desert-Stalk:\n"
 "This unit can hide in sand terrain, and remain undetected by its enemies.\n"
@@ -3162,7 +3173,11 @@ msgid ""
 "immediately loses all its remaining movement."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1042
+#: Archaic_Era/utils/Archaic_abilities.cfg:1044
+msgid "scattershot"
+msgstr ""
+
+#: Archaic_Era/utils/Archaic_abilities.cfg:1045
 msgid "This attack always has at least a 70% chance to hit."
 msgstr ""
 
