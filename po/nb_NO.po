@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Archaic_Era-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-14 13:25+0200\n"
+"POT-Creation-Date: 2014-04-15 12:13+0200\n"
 "PO-Revision-Date: 2012-09-28 02:19+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -2492,7 +2492,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=blade
-#: Archaic_Era/units/ukians/Ukian_Attackdog.cfg:51
+#: Archaic_Era/units/ukians/Ukian_Attackdog.cfg:52
 msgid "fury"
 msgstr ""
 
@@ -3063,41 +3063,49 @@ msgid ""
 "but is always mobile at night."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:488
+#. [set_menu_item]: id=aa_stone_release
+#: Archaic_Era/utils/Archaic_abilities.cfg:489
 msgid "release stoned victims"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:524
-#: Archaic_Era/utils/Archaic_abilities.cfg:570
+#. [unstore_unit]
+#: Archaic_Era/utils/Archaic_abilities.cfg:525
+#: Archaic_Era/utils/Archaic_abilities.cfg:571
 msgid "Free"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:581
+#. [chance_to_hit]: id=aa_fog
+#: Archaic_Era/utils/Archaic_abilities.cfg:582
 msgid "fog"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:582
+#. [chance_to_hit]: id=aa_fog
+#: Archaic_Era/utils/Archaic_abilities.cfg:583
 msgid ""
 "The opponent is enveloped in an opaque fog and cannot see very well, so "
 "their chance to hit is reduced."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:592
+#. [chance_to_hit]: id=aa_tie
+#: Archaic_Era/utils/Archaic_abilities.cfg:593
 msgid "wind-up"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:593
+#. [chance_to_hit]: id=aa_tie
+#: Archaic_Era/utils/Archaic_abilities.cfg:594
 msgid ""
 "The unit has a greater chance of landing a successful blow if the enemy is "
 "distracted.  Similar to Thief's backstab, but affects chance to hit instead "
 "of damage."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:601
+#. [slows]: id=slow
+#: Archaic_Era/utils/Archaic_abilities.cfg:602
 msgid "slows"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:602
+#. [slows]: id=slow
+#: Archaic_Era/utils/Archaic_abilities.cfg:603
 msgid ""
 "This attack slows the target until it ends a turn. Slow halves the damage "
 "caused by attacks and the movement cost for a slowed unit is doubled. A unit "
@@ -3105,38 +3113,51 @@ msgid ""
 "is selected."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:820
-#: Archaic_Era/utils/Archaic_abilities.cfg:861
-#: Archaic_Era/utils/Archaic_abilities.cfg:902
-#: Archaic_Era/utils/Archaic_abilities.cfg:943
+#. [set_menu_item]: id=aa_shell1
+#. [set_menu_item]: id=aa_shell2
+#. [set_menu_item]: id=aa_shell3
+#. [set_menu_item]: id=aa_shell4
+#: Archaic_Era/utils/Archaic_abilities.cfg:821
+#: Archaic_Era/utils/Archaic_abilities.cfg:862
+#: Archaic_Era/utils/Archaic_abilities.cfg:903
+#: Archaic_Era/utils/Archaic_abilities.cfg:944
 msgid "hide in shell"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:840
-#: Archaic_Era/utils/Archaic_abilities.cfg:881
-#: Archaic_Era/utils/Archaic_abilities.cfg:922
-#: Archaic_Era/utils/Archaic_abilities.cfg:963
+#. [set_menu_item]: id=aa_shell1b
+#. [set_menu_item]: id=aa_shell2b
+#. [set_menu_item]: id=aa_shell3b
+#. [set_menu_item]: id=aa_shell4b
+#: Archaic_Era/utils/Archaic_abilities.cfg:841
+#: Archaic_Era/utils/Archaic_abilities.cfg:882
+#: Archaic_Era/utils/Archaic_abilities.cfg:923
+#: Archaic_Era/utils/Archaic_abilities.cfg:964
 msgid "stop hiding"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:990
+#. [regenerate]: id=aa_selfheal
+#: Archaic_Era/utils/Archaic_abilities.cfg:991
 msgid "selfheal"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:991
+#. [regenerate]: id=aa_selfheal
+#: Archaic_Era/utils/Archaic_abilities.cfg:992
 msgid ""
 "This unit heals {AMT} HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1007
+#. [illuminates]: id=aa_penumbra
+#: Archaic_Era/utils/Archaic_abilities.cfg:1008
 msgid "penumbra"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1008
+#. [illuminates]: id=aa_penumbra
+#: Archaic_Era/utils/Archaic_abilities.cfg:1009
 msgid "female^penumbra"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1009
+#. [illuminates]: id=aa_penumbra
+#: Archaic_Era/utils/Archaic_abilities.cfg:1010
 msgid ""
 "This unit obscures the surrounding area, making chaotic units fight better, "
 "and lawful units fight worse.\n"
@@ -3145,17 +3166,20 @@ msgid ""
 "day, and as if it were night when it is dusk."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1021
-#: Archaic_Era/utils/Archaic_abilities.cfg:1023
+#. [hides]: id=aa_desertstalk
+#: Archaic_Era/utils/Archaic_abilities.cfg:1022
+#: Archaic_Era/utils/Archaic_abilities.cfg:1024
 msgid "desert-stalk"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1022
-#: Archaic_Era/utils/Archaic_abilities.cfg:1024
+#. [hides]: id=aa_desertstalk
+#: Archaic_Era/utils/Archaic_abilities.cfg:1023
+#: Archaic_Era/utils/Archaic_abilities.cfg:1025
 msgid "female^desert-stalk"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1025
+#. [hides]: id=aa_desertstalk
+#: Archaic_Era/utils/Archaic_abilities.cfg:1026
 msgid ""
 "This unit can hide in sand terrain, and remain undetected by its enemies.\n"
 "\n"
@@ -3164,7 +3188,8 @@ msgid ""
 "immediately loses all its remaining movement."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1028
+#. [hides]: id=aa_desertstalk
+#: Archaic_Era/utils/Archaic_abilities.cfg:1029
 msgid ""
 "Desert-Stalk:\n"
 "This unit can hide in sand terrain, and remain undetected by its enemies.\n"
@@ -3174,11 +3199,13 @@ msgid ""
 "immediately loses all its remaining movement."
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1044
+#. [chance_to_hit]: id=aa_scatter
+#: Archaic_Era/utils/Archaic_abilities.cfg:1045
 msgid "scattershot"
 msgstr ""
 
-#: Archaic_Era/utils/Archaic_abilities.cfg:1045
+#. [chance_to_hit]: id=aa_scatter
+#: Archaic_Era/utils/Archaic_abilities.cfg:1046
 msgid "This attack always has at least a 70% chance to hit."
 msgstr ""
 
